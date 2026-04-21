@@ -11,7 +11,7 @@ public class Dateiarbeit {
 
     // Produktname für AutoComplete aus txt filtern und speichern
     private void ladeProdukte() {
-        try (BufferedReader br = new BufferedReader(new FileReader("src/AufbauSupermarkt.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("prototyp/src/AufbauSupermarkt.txt"))) {
             String zeile;
             while ((zeile = br.readLine()) != null) {
                 String[] teile = zeile.split(";");
