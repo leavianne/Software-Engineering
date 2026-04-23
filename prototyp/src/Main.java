@@ -1,9 +1,14 @@
 import javax.swing.*;
-import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
-        Liste_Fenster fenster = new Liste_Fenster();
-        fenster.setVisible(true);
+
+        try {
+            UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        new Liste_Fenster().setVisible(true);
     }
 }

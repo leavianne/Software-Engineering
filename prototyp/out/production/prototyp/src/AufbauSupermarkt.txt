@@ -1,0 +1,100 @@
+Äpfel;1
+Bananen;1
+Birnen;1
+Weintrauben;1
+Orangen;1
+Mandarinen;1
+Zitronen;1
+Limetten;1
+Kiwis;1
+Pfirsiche;1
+Nektarinen;1
+Pflaumen;1
+Mango;1
+Ananas;1
+Melone;1
+Karotten;2
+Kartoffeln;2
+Zwiebeln;2
+Knoblauch;2
+Tomaten;2
+Gurken;2
+Paprika;2
+Brokkoli;2
+Blumenkohl;2
+Zucchini;2
+Aubergine;2
+Lauch;2
+Sellerie;2
+Spinat;2
+Salatkopf;2
+Mehl;3
+Zucker;3
+Vanillezucker;3
+Backpulver;3
+Hefe;3
+Speisestärke;3
+Kakao;3
+Schokodrops;3
+Mandeln gehackt;3
+Haselnüsse gemahlen;3
+Chips Paprika;4
+Chips Salz;4
+Salzstangen;4
+Schokolade Vollmilch;4
+Schokolade Zartbitter;4
+Gummibärchen;4
+Karamellbonbons;4
+Müsliriegel;4
+Butterkekse;4
+Schokokekse;4
+Waffeln;4
+Popcorn süß;4
+Popcorn salzig;4
+H-Milch;5
+Kondensmilch;5
+Eier 10er Pack;5
+Eier 6er Pack;5
+Kaffeesahne;5
+Joghurt Natur;6
+Joghurt Erdbeere;6
+Quark;6
+Frischkäse;6
+Butter;6
+Margarine;6
+Sahne;6
+Buttermilch;6
+Käse Gouda;6
+Käse Emmentaler;6
+Mozzarella;6
+Skyr;6
+Salami;7
+Kochschinken;7
+Putenbrustaufschnitt;7
+Leberwurst;7
+Bratwürste;7
+Hackfleisch gemischt;7
+Hähnchenbrustfilet;7
+Lachsfilet;7
+Fischstäbchen (gekühlt);7
+Tiefkühlpizza;8
+Pommes;8
+Erbsen TK;8
+Spinat TK;8
+Beerenmix TK;8
+Eiscreme Vanille;8
+Eiscreme Schokolade;8
+Chicken Nuggets TK;8
+Lasagne TK;8
+Mineralwasser still;9
+Mineralwasser sprudel;9
+Cola;9
+Limonade Zitrone;9
+Apfelsaft;9
+Orangensaft;9
+Eistee Pfirsich;9
+Eistee Zitrone;9
+Bier;9
+Wein rot;9
+Wein weiß;9
+Monster;9

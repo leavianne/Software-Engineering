@@ -4,10 +4,12 @@ import java.awt.*;
 public class getAufbau extends JFrame {
     private Image img;
     public getAufbau() {
-        setTitle("Supermarkt Aufbau");
+        setTitle("Schobbow Aufbau");
         setSize(500, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setIconImage(new ImageIcon("img/Logo_Schobbow.png").getImage());
+
         img = new ImageIcon("img/Aufbau.png").getImage();
         JPanel panel = new JPanel() {
             @Override

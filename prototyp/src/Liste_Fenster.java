@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Liste_Fenster extends JFrame {
 
-    // ===== UI Komponenten =====
+    //   UI Komponenten  
     private JPanel contentPane;
     private JButton addButton;
     private JList<Produkt> liste;
@@ -15,7 +15,7 @@ public class Liste_Fenster extends JFrame {
     private JButton aufbauButton;
     private JTextField inputTextField;
 
-    // ===== Listen =====
+    //   Listen  
     private DefaultListModel<Produkt> listModel;
     private ArrayList<String> produktListe;
     private AutoComplete autoComplete;
@@ -23,41 +23,41 @@ public class Liste_Fenster extends JFrame {
 
     public Liste_Fenster() {
 
-        // ===== Fenster Setup =====
+        //   Fenster Setup  
         contentPane.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         getRootPane().setDefaultButton(addButton);
 
         setContentPane(contentPane);
         setTitle("Einkaufsliste");
-        setIconImage(new ImageIcon("./img/Logo_Schobbow.png").getImage());
-        setSize(500, 500);
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
+        setIconImage(new ImageIcon("img/Logo_Schobbow.png").getImage());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // ===== Übersichtsplan in Fenster öffnen =====
+        //   Übersichtsplan in Fenster öffnen  
         aufbauButton.addActionListener(e -> {
             new getAufbau();
         });
 
-        // ===== Einkaufsliste initialisieren =====
+        //   Einkaufsliste initialisieren  
         listModel = new DefaultListModel<>();
         liste.setModel(listModel);
 
-        // ===== produktarbeit initialisieren =====
+        //   produktarbeit initialisieren  
         produktarbeit = new Produktarbeit(listModel, liste);
 
-        // ===== Rechtsklick: Anzahl Ändern und Löschen =====
+        //   Rechtsklick: Anzahl Ändern und Löschen  
         JPopupMenu popupMenu = new JPopupMenu();
         JMenuItem anzahlAendern = new JMenuItem("Anzahl ändern");
         JMenuItem loeschen = new JMenuItem("Löschen");
         popupMenu.add(anzahlAendern);
         popupMenu.add(loeschen);
 
-        // ===== Produkte im Supermarkt: txt in Array Speichern =====
+        //   Produkte im Supermarkt: txt in Array Speichern  
         Dateiarbeit daten = new Dateiarbeit();
         produktListe = daten.getProdukte();
         autoComplete = new AutoComplete(inputTextField, produktListe);
 
-        // ===== Button: Hinzufügen =====
+        //   Button: Hinzufügen  
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -75,7 +75,7 @@ public class Liste_Fenster extends JFrame {
             }
         });
 
-        // ===== Darstellung der Liste =====
+        //   Darstellung der Liste  
         liste.setCellRenderer((list, produkt, index, isSelected, cellHasFocus) -> {
             Produkt p = (Produkt) produkt;
             JCheckBox checkBox = new JCheckBox(p.getAnzahl() + "x " + p.getName() + " Abteilung: " + p.getAbteilung());
@@ -83,7 +83,7 @@ public class Liste_Fenster extends JFrame {
             return checkBox;
         });
 
-        // ===== Produkt abhaken =====
+        //   Produkt abhaken  
         liste.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
             public void mouseClicked(java.awt.event.MouseEvent e) {
@@ -92,12 +92,12 @@ public class Liste_Fenster extends JFrame {
             }
         });
 
-        // ===== Sortieren Button =====
+        //   Sortieren Button  
         sortierenButton.addActionListener(e -> {
             sortEinkauf.sortieren(listModel);
         });
 
-        // ===== Rechtsklick: Untermenü öffnen =====
+        //   Rechtsklick: Untermenü öffnen  
         liste.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
             public void mousePressed(java.awt.event.MouseEvent e) {
@@ -109,13 +109,13 @@ public class Liste_Fenster extends JFrame {
             }
         });
 
-        // ===== Produkt löschen =====
+        //   Produkt löschen  
         loeschen.addActionListener(e -> {
             int index = liste.getSelectedIndex();
             produktarbeit.loeschen(index);
         });
 
-        // ===== Anzahl ändern =====
+        //   Anzahl ändern  
         anzahlAendern.addActionListener(e -> {
             int index = liste.getSelectedIndex();
             produktarbeit.anzahlAendern(index);
