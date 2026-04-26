@@ -29,7 +29,8 @@ public class Liste_Fenster extends JFrame {
 
         setContentPane(contentPane);
         setTitle("Einkaufsliste");
-        setExtendedState(JFrame.MAXIMIZED_BOTH);
+        setSize(600, 600);
+        setLocationRelativeTo(null);
         setIconImage(new ImageIcon("img/Logo_Schobbow.png").getImage());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

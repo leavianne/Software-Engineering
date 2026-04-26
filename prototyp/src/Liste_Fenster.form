@@ -18,7 +18,7 @@
               <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="hinzufuegen"/>
+              <text value="hinzufügen"/>
             </properties>
           </component>
           <component id="b7fe0" class="javax.swing.JComboBox" binding="auswahlFiliale">
@@ -27,10 +27,10 @@
             </constraints>
             <properties>
               <model>
-                <item value="Filiale Dresden"/>
-                <item value="..."/>
-                <item value="..."/>
-                <item value="..."/>
+                <item value="Filiale Dresden Süd"/>
+                <item value="Filiale Dresden Nord"/>
+                <item value="Filiale Dresden West"/>
+                <item value="Filiale Dresden Ost"/>
               </model>
             </properties>
           </component>
