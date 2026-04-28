@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class DatabaseConfig {
 
-    private static final String CONFIG_FILE = "src/config.properties";
+    private static final String CONFIG_RESOURCE = "/config.properties";
     private static Properties properties;
 
     static {
@@ -18,10 +18,15 @@ public class DatabaseConfig {
     }
 
     private static void loadConfig() {
-        try (FileInputStream fis = new FileInputStream(CONFIG_FILE)) {
-            properties.load(fis);
+        try (InputStream input = DatabaseConfig.class.getResourceAsStream(CONFIG_RESOURCE)) {
+            if (input != null) {
+                properties.load(input);
+            } else {
+                System.err.println("config.properties nicht im Classpath gefunden! Verwende Standard-Einstellungen.");
+                setDefaults();
+            }
         } catch (IOException e) {
-            System.err.println("⚠️ config.properties nicht gefunden! Verwende Standard-Einstellungen.");
+            System.err.println("config.properties nicht gefunden! Verwende Standard-Einstellungen.");
             // Standard-Einstellungen als Fallback
             setDefaults();
         }
@@ -51,6 +56,6 @@ public class DatabaseConfig {
     }
 
     public static String getConfigPath() {
-        return CONFIG_FILE;
+        return "classpath:" + CONFIG_RESOURCE;
     }
 }

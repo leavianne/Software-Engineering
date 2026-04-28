@@ -32,7 +32,7 @@ public class Liste_Fenster extends JFrame {
         setTitle("Einkaufsliste");
         setSize(720, 512);
         setLocationRelativeTo(null);
-        setIconImage(new ImageIcon("img/Logo_Schobbow.png").getImage());
+        setIconImage(new ImageIcon(getClass().getResource("/Logo_Schobbow.png")).getImage());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //   Übersichtsplan in Fenster öffnen  
@@ -51,9 +51,10 @@ public class Liste_Fenster extends JFrame {
         JPopupMenu popupMenu = new JPopupMenu();
         JMenuItem anzahlAendern = new JMenuItem("Anzahl ändern");
         JMenuItem loeschen = new JMenuItem("Löschen");
+        JMenuItem infos = new JMenuItem("Produktinformationen");
         popupMenu.add(anzahlAendern);
         popupMenu.add(loeschen);
-
+        popupMenu.add(infos);
         //   Produkte im Supermarkt: txt in Array Speichern  
         Dateiarbeit daten = new Dateiarbeit();
         produktListe = daten.getProdukte();
@@ -107,7 +108,7 @@ public class Liste_Fenster extends JFrame {
 
         //   Sortieren Button  
         sortierenButton.addActionListener(e -> {
-            sortEinkauf.sortieren(listModel);
+            produktarbeit.sortieren();
         });
 
         //   Rechtsklick: Untermenü öffnen  

@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.util.ArrayList;
+import java.util.Comparator;
 
 public class Produktarbeit {
     private DefaultListModel<Produkt> listModel;
@@ -67,5 +69,18 @@ public class Produktarbeit {
 
         int lastIndex = listModel.getSize() - 1;
         liste.ensureIndexIsVisible(lastIndex);
+    }
+    public void sortieren() {
+        ArrayList<Produkt> tempListe = new ArrayList<>();
+
+        for (int i = 0; i < listModel.size(); i++) {
+            tempListe.add(listModel.getElementAt(i));
+        }
+        tempListe.sort(Comparator.comparingInt(Produkt::getAbteilung));
+        listModel.clear();
+
+        for (Produkt p : tempListe) {
+            listModel.addElement(p);
+        }
     }
 }

@@ -18,8 +18,7 @@ public class Startseite extends JFrame {
         setSize(720, 512);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setIconImage(new ImageIcon("img/Logo_Schobbow.png").getImage());
-
+        setIconImage(new ImageIcon(getClass().getResource("/Logo_Schobbow.png")).getImage());
         setContentPane(mainPanel);
 
         // Schriftarten
@@ -27,7 +26,7 @@ public class Startseite extends JFrame {
         neueListe.setFont(UIStyles.BUTTON_FONT);
 
         // Logo
-        ImageIcon icon = new ImageIcon("img/Logo_Schobbow.png");
+        ImageIcon icon = new ImageIcon(getClass().getResource("/Logo_Schobbow.png"));
         Image img = icon.getImage();
         Image scaledImg = img.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
         Logo.setIcon(new ImageIcon(scaledImg));
