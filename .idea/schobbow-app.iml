@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/java_projekt/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/java_projekt/img" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/java_projekt/src/img" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/java_projekt/lib" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/java_projekt/src/lib" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/prototyp" />
     </content>
     <orderEntry type="inheritedJdk" />
