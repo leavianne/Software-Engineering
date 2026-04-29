@@ -1,11 +1,9 @@
 import java.io.*;
+import java.nio.file.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
-
-// Zentrale Datenbankverbindung
-// Alle Nutzer müssen die Einstellungen in config.properties ändern
 
 public class DatabaseConfig {
 
@@ -14,45 +12,41 @@ public class DatabaseConfig {
 
     static {
         properties = new Properties();
-        loadConfig();
-    }
-
-    private static void loadConfig() {
         try (InputStream input = DatabaseConfig.class.getResourceAsStream(CONFIG_RESOURCE)) {
             if (input != null) {
                 properties.load(input);
             } else {
-                System.err.println("config.properties nicht im Classpath gefunden! Verwende Standard-Einstellungen.");
-                setDefaults();
+                System.err.println("config.properties nicht gefunden, verwende Standardwerte.");
+                properties.setProperty("db.file", "supermarkt.db");
             }
         } catch (IOException e) {
-            System.err.println("config.properties nicht gefunden! Verwende Standard-Einstellungen.");
-            // Standard-Einstellungen als Fallback
-            setDefaults();
+            System.err.println("Fehler beim Laden der config.properties.");
+            properties.setProperty("db.file", "supermarkt.db");
         }
     }
 
-    private static void setDefaults() {
-        properties.setProperty("db.server", "localhost");
-        properties.setProperty("db.port", "1433");
-        properties.setProperty("db.name", "supermarkt_db");
-        properties.setProperty("db.user", "sa");
-        properties.setProperty("db.password", "");
-    }
-
     public static Connection getConnection() throws SQLException {
-        String server = properties.getProperty("db.server", "localhost");
-        String port = properties.getProperty("db.port", "1433");
-        String dbName = properties.getProperty("db.name", "supermarkt_db");
-        String user = properties.getProperty("db.user", "sa");
-        String password = properties.getProperty("db.password", "");
+        String dbFileName = properties.getProperty("db.file", "supermarkt.db");
+        File dbFile = new File(dbFileName);
 
-        String connectionString = String.format(
-                "jdbc:sqlserver://%s:%s;databaseName=%s;encrypt=true;trustServerCertificate=true",
-                server, port, dbName
-        );
+        // Falls die Datei noch nicht existiert (z.B. nach frischem Klonen),
+        // kopiere sie aus dem Classpath in das Arbeitsverzeichnis.
+        if (!dbFile.exists()) {
+            try (InputStream in = DatabaseConfig.class.getResourceAsStream("/db/" + dbFileName)) {
+                if (in != null) {
+                    Files.copy(in, dbFile.toPath());
+                    System.out.println("Datenbank aus Classpath kopiert: " + dbFile.getAbsolutePath());
+                } else {
+                    throw new SQLException("Datenbankdatei '" + dbFileName + "' nicht im Classpath gefunden!");
+                }
+            } catch (IOException e) {
+                throw new SQLException("Fehler beim Kopieren der DB-Datei: " + e.getMessage(), e);
+            }
+        }
 
-        return DriverManager.getConnection(connectionString, user, password);
+        // SQLite-Verbindung aufbauen
+        String url = "jdbc:sqlite:" + dbFile.getAbsolutePath();
+        return DriverManager.getConnection(url);
     }
 
     public static String getConfigPath() {

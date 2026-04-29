@@ -8,29 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="988840c8-90cd-48d8-9df7-fcbcb6779f3a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/schobbow-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/schobbow-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/img/Aufbau.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/img/Logo_Schobbow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/lib/mssql-jdbc-13.4.0.jre11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/AutoComplete$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/AutoComplete$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/AutoComplete$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/AutoComplete$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/AutoComplete$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/AutoComplete$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/AutoComplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/AutoComplete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/DatabaseConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Dateiarbeit.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Dateiarbeit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Liste_Fenster$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Liste_Fenster$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Liste_Fenster$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Liste_Fenster$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Liste_Fenster$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Liste_Fenster$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Liste_Fenster.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Liste_Fenster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Produkt.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Produkt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Produktarbeit.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Produktarbeit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Startseite.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/Startseite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/UIStyles.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/UIStyles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/getAufbau$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/getAufbau$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/getAufbau.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/out/production/java_projekt/getAufbau.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_projekt/src/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/src/DatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_projekt/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/src/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_projekt/src/lib/mssql-jdbc-13.4.0.jre11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/DatabaseConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/lib/mssql-jdbc-13.4.0.jre11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/mssql-jdbc-13.4.0.jre11.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +44,17 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lea-e/OneDrive/Studium/4_Semester/Software_2/Git/schobbow-app",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lea-e\OneDrive\Studium\4_Semester\Software_2\Git\schobbow-app\java_projekt\src\lib" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
