@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2953 2953" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Grundriss" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <path d="M1417.323,472.441L1417.323,236.22L2125.984,236.22L2125.984,472.441L3070.866,472.441L3070.866,2220.472L2362.205,2220.472L2362.205,2362.205L1653.543,2362.205L1653.543,2125.984L472.441,2125.984L472.441,472.441L1417.323,472.441Z" style="fill:rgb(221,221,221);stroke:black;stroke-width:12.5px;"/>
+    </g>
+    <g id="Obst---Gemüse" serif:id="Obst &amp; Gemüse" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Obst-Gemüse---Wand" serif:id="Obst/Gemüse - Wand" transform="matrix(0,1,-1,0,860.259221,-2072.445149)">
+            <g transform="matrix(0.824594,0,0,1,475.258136,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.55px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g id="Obst-Gemüse---Wand1" serif:id="Obst/Gemüse - Wand" transform="matrix(1,-0,0,1,-2047.697057,148.027291)">
+            <g transform="matrix(1.223135,0,0,1,-550.907519,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.73px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,181.555324,-0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g id="Obst-Gemüse---kleiner-Regal" serif:id="Obst/Gemüse - kleiner Regal" transform="matrix(1,0,0,1,-708.661417,-1812.60263)">
+            <rect x="1984.252" y="2291.339" width="141.732" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M2031.496,2291.339L2031.496,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M2078.74,2291.339L2078.74,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+        </g>
+        <g id="Obst-Gemüse-Regal" serif:id="Obst/Gemüse-Regal">
+            <g transform="matrix(1,0,0,1,47.244094,12.652524)">
+                <rect x="614.173" y="588.868" width="239.931" height="119.793" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,0,-12.791097)">
+                <rect x="614.173" y="639.755" width="47.244" height="68.906" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,287.175094,-12.791097)">
+                <rect x="614.173" y="639.755" width="47.244" height="68.906" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <path d="M708.661,601.521L708.661,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M755.906,601.521L755.906,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M803.15,601.521L803.15,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M850.394,601.521L850.394,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M661.417,661.417L897.638,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+        </g>
+        <g id="Obst-Gemüse-Regal1" serif:id="Obst/Gemüse-Regal" transform="matrix(1,0,0,1,-0,176.323854)">
+            <g transform="matrix(1,0,0,1,47.244094,12.652524)">
+                <rect x="614.173" y="588.868" width="239.931" height="119.793" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,0,-12.791097)">
+                <rect x="614.173" y="639.755" width="47.244" height="68.906" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,287.175094,-12.791097)">
+                <rect x="614.173" y="639.755" width="47.244" height="68.906" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <path d="M708.661,601.521L708.661,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M755.906,601.521L755.906,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M803.15,601.521L803.15,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M850.394,601.521L850.394,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M661.417,661.417L897.638,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+        </g>
+        <g id="Obst-Gemüse-Regal2" serif:id="Obst/Gemüse-Regal" transform="matrix(1,0,0,1,425.19685,-0)">
+            <g transform="matrix(1,0,0,1,47.244094,12.652524)">
+                <rect x="614.173" y="588.868" width="239.931" height="119.793" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,0,-12.791097)">
+                <rect x="614.173" y="639.755" width="47.244" height="68.906" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,287.175094,-12.791097)">
+                <rect x="614.173" y="639.755" width="47.244" height="68.906" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <path d="M708.661,601.521L708.661,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M755.906,601.521L755.906,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M803.15,601.521L803.15,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M850.394,601.521L850.394,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M661.417,661.417L897.638,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+        </g>
+        <g id="Obst-Gemüse-Regal3" serif:id="Obst/Gemüse-Regal" transform="matrix(1,0,0,1,425.19685,176.323854)">
+            <g transform="matrix(1,0,0,1,47.244094,12.652524)">
+                <rect x="614.173" y="588.868" width="239.931" height="119.793" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,0,-12.791097)">
+                <rect x="614.173" y="639.755" width="47.244" height="68.906" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,287.175094,-12.791097)">
+                <rect x="614.173" y="639.755" width="47.244" height="68.906" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <path d="M708.661,601.521L708.661,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M755.906,601.521L755.906,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M803.15,601.521L803.15,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M850.394,601.521L850.394,721.314" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M661.417,661.417L897.638,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-259.430649,-398.468835)">
+            <g transform="matrix(50,0,0,50,1448.028681,982.647969)">
+            </g>
+            <text x="1101.979px" y="982.648px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Obst &amp; Gemüse</text>
+        </g>
+    </g>
+    <g id="Eingangsbereich" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <path d="M1417.323,472.441L1511.811,472.441L1511.811,566.929L1653.543,566.929" style="fill:none;stroke:black;stroke-width:12.5px;"/>
+        <path d="M2125.984,472.441L2031.496,472.441L2031.496,566.929L1889.764,566.929" style="fill:none;stroke:black;stroke-width:12.5px;"/>
+        <g transform="matrix(1,0,0,1,-63.731804,-18.48485)">
+            <g transform="matrix(83.333333,0,0,83.333333,1987.135347,404.110178)">
+            </g>
+            <text x="1683.135px" y="404.11px" style="font-family:'Play-Regular', 'Play';font-size:83.333px;">Eingang</text>
+        </g>
+    </g>
+    <g id="Kassen" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g transform="matrix(0.85,0,0,1,82.677165,-0)">
+            <rect x="2125.984" y="708.661" width="472.441" height="94.488" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.49px;"/>
+        </g>
+        <g transform="matrix(0.85,0,0,1,82.677165,141.732283)">
+            <rect x="2125.984" y="708.661" width="472.441" height="94.488" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.49px;"/>
+        </g>
+        <g transform="matrix(0.85,0,0,1,82.677165,283.464567)">
+            <rect x="2125.984" y="708.661" width="472.441" height="94.488" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.49px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,4.807892,-52.148109)">
+            <g transform="matrix(50,0,0,50,1865.23384,965.760904)">
+            </g>
+            <text x="1704.184px" y="965.761px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Kassen</text>
+        </g>
+    </g>
+    <g id="SB-Kassen" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g transform="matrix(0.176064,0,0,0.75,1685.646568,-35.933071)">
+            <rect x="2125.984" y="708.661" width="472.441" height="94.488" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:7.65px;"/>
+        </g>
+        <g transform="matrix(0.176064,0,0,0.75,1804.762282,-35.933071)">
+            <rect x="2125.984" y="708.661" width="472.441" height="94.488" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:7.65px;"/>
+        </g>
+        <g transform="matrix(0.176064,0,0,0.75,1923.499268,-35.933071)">
+            <rect x="2125.984" y="708.661" width="472.441" height="94.488" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:7.65px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-369.293452,-151.630666)">
+            <g transform="matrix(50,0,0,50,2709.430258,765.303894)">
+            </g>
+            <text x="2471.38px" y="765.304px" style="font-family:'Play-Regular', 'Play';font-size:50px;">SB-Kassen</text>
+        </g>
+    </g>
+    <g id="Getränke" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Getränke-Regal" transform="matrix(1,0,0,1,-106.299213,23.622047)">
+            <g transform="matrix(1.117647,0,0,0.666667,-223.714683,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.53px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94.488189,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g id="Getränke-Regal1" serif:id="Getränke-Regal" transform="matrix(1.157895,0,0,1.157895,-548.280149,60.920017)">
+            <g transform="matrix(1.117647,0,0,0.666667,-223.714683,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.91px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94.488189,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.6px;"/>
+            </g>
+            <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.6px;"/>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.6px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.6px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.6px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.6px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.6px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.6px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.6px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.6px;"/>
+            </g>
+        </g>
+        <g id="Getränke-Regal2" serif:id="Getränke-Regal" transform="matrix(1.052632,0,0,1.052632,-253.626191,262.329051)">
+            <g transform="matrix(1.117647,0,0,0.666667,-223.714683,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.3px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94.488189,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+        </g>
+        <g id="Getränkeregal---Wand" serif:id="Getränkeregal - Wand" transform="matrix(1,0,0,1,-8.12783,150.188136)">
+            <g transform="matrix(0.824594,0,0,1,475.258136,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.55px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g id="Getränkeregal---Wand1" serif:id="Getränkeregal - Wand" transform="matrix(0,1,-1,0,3391.246636,-2049.001247)">
+            <g transform="matrix(0.824594,0,0,1,475.258136,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.55px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,1095.78866,-579.594669)">
+            <g transform="matrix(50,0,0,50,1694.562914,1181.523803)">
+            </g>
+            <text x="1488.863px" y="1181.524px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Getränke</text>
+        </g>
+    </g>
+    <g id="Molkereiprodukte" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Molkerei-Regal" transform="matrix(1.097656,0,0,1.097656,-357.518383,1082.224397)">
+            <g transform="matrix(1.360846,0,0,0.666667,-929.716238,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.54px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-603.233002,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-720.411311,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+        </g>
+        <g id="Molkerei-Regal1" serif:id="Molkerei-Regal" transform="matrix(1.097656,0,0,1.097656,-357.518383,1223.956681)">
+            <g transform="matrix(1.360846,0,0,0.666667,-929.716238,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.54px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-603.233002,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-720.411311,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+        </g>
+        <g id="Molkereiregal---Wand" serif:id="Molkereiregal - Wand" transform="matrix(0,1,-1,0,3392.660171,-855.977852)">
+            <g transform="matrix(0.824594,0,0,1,475.258136,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.55px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g id="Molkerei-Regal---Wand" serif:id="Molkerei-Regal - Wand" transform="matrix(-1,0,-0,-1,5609.569494,2543.057127)">
+            <g transform="matrix(1.223135,0,0,1,-550.907519,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.73px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,181.555324,-0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g id="Molkerei-Regal2" serif:id="Molkerei-Regal" transform="matrix(1.097656,0,0,1.097656,-357.518383,1365.688964)">
+            <g transform="matrix(1.360846,0,0,0.666667,-929.716238,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.54px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-603.233002,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-720.411311,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,70.919245,12.443783)">
+            <g transform="matrix(50,0,0,50,2796.472094,1688.343618)">
+            </g>
+            <text x="2399.022px" y="1688.344px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Molkereiprodukte</text>
+        </g>
+    </g>
+    <g id="Bio-Produkte" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Bio-Regal" transform="matrix(-0,1.097656,-1.097656,-0,1986.327964,-1318.859947)">
+            <g transform="matrix(1.360846,0,0,0.666667,-929.716238,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.54px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-603.233002,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-720.411311,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+        </g>
+        <g id="Bio-Regal1" serif:id="Bio-Regal" transform="matrix(-0,1.097656,-1.097656,-0,1844.595681,-1318.859947)">
+            <g transform="matrix(1.360846,0,0,0.666667,-929.716238,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.54px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-603.233002,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-720.411311,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+        </g>
+        <g id="Bio-Regal2" serif:id="Bio-Regal" transform="matrix(-0,1.097656,-1.097656,-0,1702.863397,-1318.859947)">
+            <g transform="matrix(1.360846,0,0,0.666667,-929.716238,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.54px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-603.233002,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1.240137,0,0,1,-720.411311,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.37px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-106.096575,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.8px;"/>
+            </g>
+        </g>
+        <g id="Bio-Regal---Wand" serif:id="Bio-Regal - Wand" transform="matrix(-1,0,-0,-1,4054.440245,2446.640799)">
+            <g transform="matrix(1.223135,0,0,1,-550.907519,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.73px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,181.555324,-0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-178.105364,33.518634)">
+            <g transform="matrix(50,0,0,50,1485.882505,1324.316012)">
+            </g>
+            <text x="1192.433px" y="1324.316px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Bio-Produkte</text>
+        </g>
+    </g>
+    <g id="Snacks---Süßigkeiten" serif:id="Snacks &amp; Süßigkeiten" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Snacks-Regal" transform="matrix(1.052632,0,0,1.052632,-241.815168,771.544047)">
+            <g transform="matrix(1.117647,0,0,0.666667,-223.714683,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.3px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94.488189,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+        </g>
+        <g id="Snacks-Regal1" serif:id="Snacks-Regal" transform="matrix(1.052632,0,0,1.052632,-241.815168,910.070452)">
+            <g transform="matrix(1.117647,0,0,0.666667,-223.714683,129.92126)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.3px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94.488189,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,590.551L2645.669,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,590.551L2692.913,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,590.551L2740.157,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,590.551L2976.378,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+        </g>
+        <g id="Snacksregal---Wand" serif:id="Snacksregal - Wand" transform="matrix(0,1,-1,0,3391.246636,-1228.346457)">
+            <g transform="matrix(0.555154,0,0,1,1169.012645,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:5.15px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,340.017323,-35.232803)">
+            <g transform="matrix(50,0,0,50,2610.557086,1405.311543)">
+            </g>
+            <text x="2130.507px" y="1405.312px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Snacks &amp; Süßigkeiten</text>
+        </g>
+    </g>
+    <g id="Konserven" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Konserven-Regal" transform="matrix(1.052632,0,0,1.052632,-2293.752079,1311.645255)">
+            <g transform="matrix(0.670588,0,0,0.666667,1038.536453,128.740157)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:5.92px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1344.806717,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1292.143447,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+        </g>
+        <g id="Konserven-Regal1" serif:id="Konserven-Regal" transform="matrix(1.052632,0,0,1.052632,-2293.752079,1181.723995)">
+            <g transform="matrix(0.670588,0,0,0.666667,1038.536453,128.740157)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:5.92px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1344.806717,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1292.143447,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+        </g>
+        <g id="Konserven-Regal2" serif:id="Konserven-Regal" transform="matrix(1.052632,0,0,1.052632,-2293.752079,1055.532532)">
+            <g transform="matrix(0.670588,0,0,0.666667,1038.536453,128.740157)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:5.92px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1344.806717,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1292.143447,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+        </g>
+        <g id="Konservenregal---Wand" serif:id="Konservenregal - Wand" transform="matrix(1,0,0,1,-2060.976274,1738.647076)">
+            <g transform="matrix(0.555154,0,0,1,1169.012645,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:5.15px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g id="Konservenregal---Wand1" serif:id="Konservenregal - Wand" transform="matrix(0,1,-1,0,860.259221,-941.617557)">
+            <g transform="matrix(0.824594,0,0,1,475.258136,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.55px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-422.73177,468.564972)">
+            <g transform="matrix(50,0,0,50,1243.582951,1170.18424)">
+            </g>
+            <text x="1009.083px" y="1170.184px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Konserven</text>
+        </g>
+    </g>
+    <g id="Backwaren" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Backwaren-Regal" transform="matrix(1.052632,0,0,1.052632,-2279.05132,807.854667)">
+            <g transform="matrix(0.670588,0,0,0.666667,1038.536453,128.740157)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:5.92px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1344.806717,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1292.143447,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+        </g>
+        <g id="Backwaren-Regal1" serif:id="Backwaren-Regal" transform="matrix(1.052632,0,0,1.052632,-2279.05132,676.068509)">
+            <g transform="matrix(0.670588,0,0,0.666667,1038.536453,128.740157)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:5.92px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1344.806717,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1292.143447,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+        </g>
+        <g id="Backwaren-Regal2" serif:id="Backwaren-Regal" transform="matrix(1.052632,0,0,1.052632,-2279.05132,546.095865)">
+            <g transform="matrix(0.670588,0,0,0.666667,1038.536453,128.740157)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:5.92px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1344.806717,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1292.143447,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+        </g>
+        <g id="Backwaren-Regal3" serif:id="Backwaren-Regal" transform="matrix(1.052632,0,0,1.052632,-2279.05132,416.225989)">
+            <g transform="matrix(0.670588,0,0,0.666667,1038.536453,128.740157)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:5.92px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1344.806717,-118.110236)">
+                <rect x="2503.937" y="708.661" width="401.575" height="70.866" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(0.557353,0,0,1,1292.143447,0)">
+                <path d="M2598.425,625.984L3000,625.984" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.89px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2787.402,590.551L2787.402,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2834.646,590.551L2834.646,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2881.89,590.551L2881.89,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-5.974895,0)">
+                <path d="M2929.134,590.551L2929.134,661.417" style="fill:none;stroke:rgb(110,110,110);stroke-width:3.96px;"/>
+            </g>
+        </g>
+        <g id="Backwaren-Regal---Wand" serif:id="Backwaren-Regal - Wand" transform="matrix(0,-1,1,0,152.612261,4172.772404)">
+            <g transform="matrix(1.223135,0,0,1,-550.907519,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:3.73px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2881.89,330.709L2881.89,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2929.134,330.709L2929.134,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134.31123,-0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,181.555324,-0)">
+                <path d="M2976.378,330.709L2976.378,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-506.001271,-95.513105)">
+            <g transform="matrix(50,0,0,50,1352.163447,1087.139089)">
+            </g>
+            <text x="1106.263px" y="1087.139px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Backwaren</text>
+        </g>
+    </g>
+    <g id="Tiefkühl" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Tiefkühlregal---Wand" serif:id="Tiefkühlregal - Wand" transform="matrix(0,1,-1,0,3391.246636,-1582.677165)">
+            <g transform="matrix(0.555154,0,0,1,1169.012645,-141.732283)">
+                <rect x="2574.803" y="472.441" width="496.063" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:5.15px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2645.669,330.709L2645.669,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2692.913,330.709L2692.913,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2740.157,330.709L2740.157,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2787.402,330.709L2787.402,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-11.811024,0)">
+                <path d="M2834.646,330.709L2834.646,377.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g id="Tiefkühlregal" transform="matrix(1,0,0,1,11.811024,-35.433071)">
+            <g transform="matrix(0.943919,0,0,1,140.646847,35.433071)">
+                <rect x="2478.675" y="1051.181" width="450.459" height="82.677" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.29px;"/>
+            </g>
+            <path d="M2527.559,1086.614L2527.559,1169.291" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M2858.268,1086.614L2858.268,1169.291" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M2527.559,1127.953L2858.268,1127.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+        </g>
+        <g id="Tiefkühlregal1" serif:id="Tiefkühlregal" transform="matrix(1,0,0,1,11.811024,106.299213)">
+            <g transform="matrix(0.943919,0,0,1,140.646847,35.433071)">
+                <rect x="2478.675" y="1051.181" width="450.459" height="82.677" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.29px;"/>
+            </g>
+            <path d="M2527.559,1086.614L2527.559,1169.291" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M2858.268,1086.614L2858.268,1169.291" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M2527.559,1127.953L2858.268,1127.953" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,786.763754,-397.539228)">
+            <g transform="matrix(50,0,0,50,2010.610655,1436.409307)">
+            </g>
+            <text x="1828.011px" y="1436.409px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Tiefkühl</text>
+        </g>
+    </g>
+    <g id="Fisch----Fleischtheken" serif:id="Fisch- &amp; Fleischtheken" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Fleisch---Fisch---kleine-Regale" serif:id="Fleisch / Fisch - kleine Regale">
+            <g id="Fleisch---Fisch---kleiner-Regal" serif:id="Fleisch / Fisch - kleiner Regal" transform="matrix(1,0,0,1,229.784276,16.283925)">
+                <rect x="1984.252" y="2291.339" width="141.732" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+                <path d="M2031.496,2291.339L2031.496,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+                <path d="M2078.74,2291.339L2078.74,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g id="Fleisch---Fisch---kleiner-Regal1" serif:id="Fleisch / Fisch - kleiner Regal" transform="matrix(1,0,0,1,55.184413,16.283925)">
+                <rect x="1984.252" y="2291.339" width="141.732" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+                <path d="M2031.496,2291.339L2031.496,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+                <path d="M2078.74,2291.339L2078.74,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g id="Fleisch---Fisch---kleiner-Regal2" serif:id="Fleisch / Fisch - kleiner Regal" transform="matrix(1,0,0,1,-153.543307,16.283925)">
+                <rect x="1984.252" y="2291.339" width="141.732" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+                <path d="M2031.496,2291.339L2031.496,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+                <path d="M2078.74,2291.339L2078.74,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g id="Fleisch---Fisch---kleiner-Regal3" serif:id="Fleisch / Fisch - kleiner Regal" transform="matrix(1,0,0,1,-322.964514,17.188588)">
+                <rect x="1984.252" y="2291.339" width="141.732" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+                <path d="M2031.496,2291.339L2031.496,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+                <path d="M2078.74,2291.339L2078.74,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g id="Fleisch---Fisch---kleiner-Regal4" serif:id="Fleisch / Fisch - kleiner Regal" transform="matrix(0,1,-1,0,4001.937795,146.978373)">
+                <rect x="1984.252" y="2291.339" width="141.732" height="47.244" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+                <path d="M2031.496,2291.339L2031.496,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+                <path d="M2078.74,2291.339L2078.74,2338.583" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g id="Fleischtheke" transform="matrix(1,0,0,1,23.850876,80.173907)">
+            <g transform="matrix(1,0,0,1,15.420243,0)">
+                <rect x="1716.733" y="1984.252" width="550.983" height="94.488" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <path d="M1784.3,1984.252L1784.3,2058.687" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M1818.898,1984.252L1818.898,2021.469" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <g transform="matrix(1,0,0,1,64.542748,0)">
+                <path d="M1784.3,1984.252L1784.3,2058.687" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,64.542748,0)">
+                <path d="M1818.898,1984.252L1818.898,2021.469" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,129.085496,0)">
+                <path d="M1784.3,1984.252L1784.3,2058.687" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,129.085496,0)">
+                <path d="M1818.898,1984.252L1818.898,2021.469" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <path d="M1784.3,1984.252L1784.3,2058.687" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M1818.898,1984.252L1818.898,2021.469" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <g transform="matrix(1,0,0,1,264.494385,0)">
+                <path d="M1784.3,1984.252L1784.3,2058.687" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,264.494385,0)">
+                <path d="M1818.898,1984.252L1818.898,2021.469" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,329.037133,0)">
+                <path d="M1784.3,1984.252L1784.3,2058.687" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,329.037133,0)">
+                <path d="M1818.898,1984.252L1818.898,2021.469" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,199.951637,0)">
+                <path d="M1784.3,1984.252L1784.3,2058.687" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,199.951637,0)">
+                <path d="M1818.898,1984.252L1818.898,2021.469" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,455.142292,0)">
+                <path d="M1784.3,1984.252L1784.3,2058.687" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,390.599544,0)">
+                <path d="M1784.3,1984.252L1784.3,2058.687" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,390.599544,0)">
+                <path d="M1818.898,1984.252L1818.898,2021.469" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g id="Fischtheke" transform="matrix(0.707107,0.707107,-0.707107,0.707107,1873.727725,-508.44365)">
+            <g transform="matrix(1,0,0,1,-889.839519,-72.778964)">
+                <rect x="2362.205" y="1984.252" width="236.22" height="94.488" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <path d="M1500,1913.386L1500,1972.441L1570.866,1972.441L1570.866,1913.386" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M1535.433,1913.386L1535.433,1972.441" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <g transform="matrix(1,0,0,1,106.299213,0)">
+                <path d="M1500,1913.386L1500,1972.441L1570.866,1972.441L1570.866,1913.386" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,106.299213,0)">
+                <path d="M1535.433,1913.386L1535.433,1972.441" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-51.698975,109.858143)">
+            <g transform="matrix(50,0,0,50,2224.220038,1933.015872)">
+            </g>
+            <text x="1940.92px" y="1933.016px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Fleischtheke</text>
+        </g>
+        <g transform="matrix(1,0,0,1,2.217546,67.172021)">
+            <g transform="matrix(50,0,0,50,1867.753714,1852.119274)">
+            </g>
+            <text x="1623.504px" y="1852.119px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Fischtheke</text>
+        </g>
+    </g>
+    <g id="Aktionsgegenstände" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Aktionsregal" transform="matrix(1,0,0,1,24.276023,94.488189)">
+            <rect x="1984.252" y="1181.102" width="141.732" height="307.087" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M2055.118,1181.102L2055.118,1488.189" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M1984.252,1240.157L2125.984,1240.157" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <g transform="matrix(1,0,0,1,0,11.811024)">
+                <path d="M1984.252,1322.835L2125.984,1322.835" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <path d="M1984.252,1417.323L2125.984,1417.323" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+        </g>
+        <g id="Aktionsregal1" serif:id="Aktionsregal" transform="matrix(1,0,0,1,-212.598425,94.488189)">
+            <rect x="1984.252" y="1181.102" width="141.732" height="307.087" style="fill:rgb(181,181,181);stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M2055.118,1181.102L2055.118,1488.189" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <path d="M1984.252,1240.157L2125.984,1240.157" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            <g transform="matrix(1,0,0,1,0,11.811024)">
+                <path d="M1984.252,1322.835L2125.984,1322.835" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+            </g>
+            <path d="M1984.252,1417.323L2125.984,1417.323" style="fill:none;stroke:rgb(110,110,110);stroke-width:4.17px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,64.514973,29.858026)">
+            <g transform="matrix(50,0,0,50,2130.239948,1211.110478)">
+            </g>
+            <text x="1664.19px" y="1211.11px" style="font-family:'Play-Regular', 'Play';font-size:50px;">Aktionsgegenstände</text>
+        </g>
+    </g>
+    <g id="Rundgang" transform="matrix(1,0,0,1,-295.275591,177.165354)">
+        <g id="Rundgang1" serif:id="Rundgang">
+            <g id="Rundgang-Pfeil" transform="matrix(1,0,0,1,-9.465228,-67.834351)">
+                <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                    <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+                </g>
+                <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                    <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,-92.723578,-28.431411)">
+                <g transform="matrix(41.666667,0,0,41.666667,1809.66689,748.346469)">
+                </g>
+                <text x="1618.084px" y="748.346px" style="font-family:'Play-Regular', 'Play';font-size:41.667px;fill:rgb(255,0,0);">Rundgang</text>
+            </g>
+        </g>
+        <g id="Rundgang-Pfeil1" serif:id="Rundgang-Pfeil" transform="matrix(0,1,-1,0,2001.622019,-520.800387)">
+            <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+            </g>
+            <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+            </g>
+        </g>
+        <g id="Rundgang-Pfeil2" serif:id="Rundgang-Pfeil" transform="matrix(1,0,0,1,-553.717196,338.392323)">
+            <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+            </g>
+            <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+            </g>
+        </g>
+        <g id="Rundgang-Pfeil3" serif:id="Rundgang-Pfeil" transform="matrix(1,0,0,1,-595.055779,887.376905)">
+            <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+            </g>
+            <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+            </g>
+        </g>
+        <g id="Rundgang-Pfeil4" serif:id="Rundgang-Pfeil" transform="matrix(0,-1,1,0,358.554119,3515.283146)">
+            <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+            </g>
+            <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+            </g>
+        </g>
+        <g id="Rundgang-Pfeil5" serif:id="Rundgang-Pfeil" transform="matrix(0,-1,1,0,1250.703296,3433.557068)">
+            <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+            </g>
+            <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+            </g>
+        </g>
+        <g id="Rundgang-Pfeil6" serif:id="Rundgang-Pfeil" transform="matrix(-1,-0,0,-1,3798.894337,2635.494041)">
+            <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+            </g>
+            <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+            </g>
+        </g>
+        <g id="Rundgang-Pfeil7" serif:id="Rundgang-Pfeil" transform="matrix(-1,-0,0,-1,3881.571502,2302.628318)">
+            <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+            </g>
+            <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+            </g>
+        </g>
+        <g id="Rundgang-Pfeil8" serif:id="Rundgang-Pfeil" transform="matrix(-1,-0,0,-1,3922.910085,1969.766993)">
+            <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+            </g>
+            <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+            </g>
+        </g>
+        <g id="Rundgang-Pfeil9" serif:id="Rundgang-Pfeil" transform="matrix(-1,-0,0,-1,3869.760479,1610.087444)">
+            <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+            </g>
+            <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+            </g>
+        </g>
+        <g id="Rundgang-Pfeil10" serif:id="Rundgang-Pfeil" transform="matrix(0,1,-1,0,2893.829642,-849.818558)">
+            <g transform="matrix(0.880819,0,0,1.065972,177.005149,-46.634416)">
+                <rect x="1485.176" y="706.883" width="26.818" height="132.961" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.26px;"/>
+            </g>
+            <g transform="matrix(-0.970534,-0,0,-1.010582,2979.738716,1793.540948)">
+                <path d="M1527.769,882.438L1570.363,935.031L1485.176,935.031L1527.769,882.438Z" style="fill:rgb(255,0,0);stroke:rgb(255,0,0);stroke-width:4.21px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
