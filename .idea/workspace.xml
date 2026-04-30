@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="988840c8-90cd-48d8-9df7-fcbcb6779f3a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/schobbow-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/schobbow-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/src/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/src/DatabaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java_projekt/src/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_projekt/src/lib/mssql-jdbc-13.4.0.jre11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/DatabaseConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/lib/mssql-jdbc-13.4.0.jre11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototyp/out/production/schobbow-app/mssql-jdbc-13.4.0.jre11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +33,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "GradleIntegrationTest",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lea-e/OneDrive/Studium/4_Semester/Software_2/Git/schobbow-app",
+    "last_opened_file_path": "C:/Users/haupt/OneDrive/Documents/GitHub/schobbow-app",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,24 +54,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="schobbow-app" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="schobbow_app" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="schobbow_app" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="schobbow_app" />
       <option name="ENV_FILES" value="" />
@@ -112,6 +92,24 @@
       <option name="RUN_TOOL" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="schobbow-app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="schobbow_app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="schobbow_app" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -120,6 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776155721763</updated>
+      <workItem from="1777491704579" duration="87000" />
     </task>
     <servers />
   </component>
