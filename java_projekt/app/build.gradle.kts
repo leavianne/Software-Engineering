@@ -26,6 +26,9 @@ dependencies {
 
     //Database dependencies, from  https://central.sonatype.com/artifact/org.xerial/sqlite-jdbc?smo=true
     implementation("org.xerial:sqlite-jdbc:3.53.0.0")
+
+    //Obfuscation
+    implementation("com.guardsquare:proguard-gradle:7.9.1")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
@@ -43,4 +46,65 @@ application {
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
+}
+
+// Manual ProGuard obfuscation task for IntelliJ artifacts
+tasks.register<JavaExec>("obfuscateJar") {
+    group = "build"
+    description = "Obfuscate JAR from IntelliJ artifacts using ProGuard"
+
+    // Path to IntelliJ artifact JAR
+    val inputJar = File("${project.rootDir}/out/artifacts/SchobbowAppNeu_jar/SchobbowAppNeu.jar")
+    val outputJar = File("${project.rootDir}/out/artifacts/SchobbowAppNeu_jar/SchobbowAppNeuObfuscated.jar")
+
+    if (!inputJar.exists()) {
+        doFirst {
+            throw GradleException("Input JAR not found: ${inputJar.absolutePath}\n" +
+                    "Please build the artifact in IntelliJ first (Build > Build Artifacts > app_jar > Build)")
+        }
+    }
+
+    classpath(configurations.runtimeClasspath.get())
+    mainClass.set("proguard.ProGuard")
+
+    args = listOf(
+        "-injars", inputJar.absolutePath,
+        "-outjars", outputJar.absolutePath,
+        "-libraryjars", "${System.getProperty("java.home")}/lib/modules",
+        "-dontwarn",
+        "-forceprocessing",
+
+        /*
+        Wir haben sehr lang und ausführlich versucht, die Obfuscation mit diesem Gradle Task und auch der separaten
+        ProGuard GUI zum Laufen zu bringen, aber die App läuft bei Anwendung der Obfuscation (sowohl mit
+        Shrinking und Optimizing als auch ohne) nicht korrekt. Wir haben recherchiert und die .jars untersucht, um das Problem
+        besser zu verstehen, aber sind noch zu keiner Lösung gekommen.
+
+        Aus Zeitgründen haben wir uns dann entschieden, die schon funktionierende .jar,
+        welche als Artefakt durch IntelliJ erstellt wurde, unobfuscated zu lassen.
+        Jedoch haben wir den ObfuscateJar Task im build script behalten, um es gelegentlich später noch zu berichtigen bzw.
+        um zu zeigen, dass wir diesen Schritt zumindest versucht und nicht vergessen haben.
+        */
+        "-dontobfuscate",
+        "-dontshrink","-dontoptimize",
+        "-dontpreverify",
+
+
+        "-keep class org.example.Main { public static void main(...); }",
+        "-keep class org.example.** { *; }",
+        "-keepattributes Signature,Exceptions,*Annotation*",
+        "-verbose"
+    )
+
+    doLast {
+        if (outputJar.exists()) {
+            println("Obfuscated JAR created: ${outputJar.absolutePath}")
+            println("Size: ${outputJar.length() / 1024}KB")
+        }
+    }
+}
+
+// Auto-obfuscate after build completes
+tasks.build {
+    finalizedBy("obfuscateJar")
 }
