@@ -48,7 +48,7 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
-// Manual ProGuard obfuscation task for IntelliJ artifacts
+//Bevor man diesen Task ausführt, bitte unter build->buildArtifacts die Input-.jar Datei generieren lassen.
 tasks.register<JavaExec>("obfuscateJar") {
     group = "build"
     description = "Obfuscate JAR from IntelliJ artifacts using ProGuard"
