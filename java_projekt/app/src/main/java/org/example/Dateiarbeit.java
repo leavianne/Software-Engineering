@@ -5,28 +5,28 @@ import java.util.ArrayList;
 
 public class Dateiarbeit {
 
-    private ArrayList<String> produkte = new ArrayList<>();
+  private ArrayList<String> produkte = new ArrayList<>();
 
-    public Dateiarbeit() {
-        ladeProdukte();
+  public Dateiarbeit() {
+    ladeProdukte();
+  }
+
+  // Produktname für AutoComplete aus txt filtern und speichern
+  private void ladeProdukte() {
+    try (Connection conn = DatabaseConfig.getConnection()) {
+      String sql = "SELECT produktname FROM produkte";
+      Statement stmt = conn.createStatement();
+      ResultSet rs = stmt.executeQuery(sql);
+
+      while (rs.next()) {
+        produkte.add(rs.getString("produktname"));
+      }
+    } catch (SQLException e) {
+      e.printStackTrace();
     }
+  }
 
-    // Produktname für AutoComplete aus txt filtern und speichern
-    private void ladeProdukte() {
-        try (Connection conn = DatabaseConfig.getConnection()) {
-            String sql = "SELECT produktname FROM produkte";
-            Statement stmt = conn.createStatement();
-            ResultSet rs = stmt.executeQuery(sql);
-
-            while (rs.next()) {
-                produkte.add(rs.getString("produktname"));
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public ArrayList<String> getProdukte() {
-        return produkte;
-    }
+  public ArrayList<String> getProdukte() {
+    return produkte;
+  }
 }
