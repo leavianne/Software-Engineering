@@ -103,8 +103,3 @@ tasks.register<JavaExec>("obfuscateJar") {
         }
     }
 }
-
-// Auto-obfuscate after build completes
-tasks.build {
-    finalizedBy("obfuscateJar")
-}
