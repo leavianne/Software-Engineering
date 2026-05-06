@@ -37,11 +37,21 @@ Die wichtigsten Funktionen der Anwendung:
   Produkte werden nach Abteilungen sortiert, um den Einkaufsweg zu optimieren  
 
 - Auswahl Markt  
-  Über Ein Untermenü kann der Filial-Standort ausgewählt werden
+  Über ein Untermenü kann der Filial-Standort ausgewählt werden
 
 - Anzeige Aufbau  
   Über einen Button kann ein Bild vom Markt-Aufbau angezeigt werden
 
+
+---
+
+## Zukünftige Funktionen
+
+- Produktinformationen anzeigen  
+  Diese Funktion wird erst in einem späterem Release implementiert und ist Stand jetzt nur mit einem Platzhalter belegt
+
+- Listen speichern und öffnen  
+  Eine Speicherfunktion wird erst später implementiert
 
 ---
 
