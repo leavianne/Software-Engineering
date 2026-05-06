@@ -1,4 +1,4 @@
-<img src="dokumente/ElbSoftware_Logo.svg" height= 300px>
+<img src="dokumente/ElbSoftware_Logo.png" height= 300px>
 
 ## Innovativer Einkaufsassistent: Entwicklung einer Einkaufslisten-Funktion für die Schobbow-Experience-App
 
