@@ -4,17 +4,33 @@ import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+/**
+ * Enthält die Bearbeitungsfunktionen für Produkte in der Einkaufsliste.
+ * 
+ * Die Klasse arbeitet direkt mit dem Listenmodell und der sichtbaren JList. Dadurch können
+ * Produkte hinzugefügt, gelöscht, sortiert, abgehackt oder in ihrer Anzahl geändert werden.
+ */
 public class Produktarbeit {
 
   private DefaultListModel<Produkt> listModel;
   private JList<Produkt> liste;
 
+  /**
+   * Erstellt ein Objekt zur Bearbeitung der Einkaufsliste.
+   * 
+   * @param listModel Datenmodell der Einkaufsliste
+   * @param liste sichtbare Liste, in der die Produkte angezeigt werden
+   */
   public Produktarbeit(DefaultListModel<Produkt> listModel, JList<Produkt> liste) {
     this.listModel = listModel;
     this.liste = liste;
   }
 
-  // Produkt abhaken
+  /**
+   * Ändert den Kaufstatus eines Produkts an der angegebenen Listenposition.
+   * 
+   * @param index Position des Produkts in der Liste
+   */
   public void toggleGekauft(int index) {
     if (index != -1) {
       Produkt p = listModel.getElementAt(index);
@@ -23,14 +39,22 @@ public class Produktarbeit {
     }
   }
 
-  // Produkt löschen
+  /**
+   * Löscht ein Produkt aus der Einkaufsliste.
+   * 
+   * @param index Position des zu löschenden Produkts
+   */
   public void loeschen(int index) {
     if (index != -1) {
       listModel.remove(index);
     }
   }
 
-  // Anzahl ändern
+  /**
+   * Öffnet einen Dialog zum Ändern der Produktanzahl.
+   * 
+   * @param index Position des Produkts, dessen Anzahl geändert werden soll
+   */
   public void anzahlAendern(int index) {
     if (index != -1) {
       Produkt p = listModel.getElementAt(index);
@@ -47,7 +71,15 @@ public class Produktarbeit {
     }
   }
 
-  // Produkt hinzufügen
+  /**
+   * Fügt ein Produkt zur Einkaufsliste hinzu.
+   * 
+   * Wenn das Produkt bereits existiert, wird nur die Anzahl erhöht. Ansonsten
+   * wird ein neues Produktobjekt erstellt und an die Liste angehängt.
+   * 
+   * @param text Name des Produkts
+   * @param anzahl Anzahl, die hinzugefügt werden soll
+   */
   public void hinzufuegen(String text, int anzahl) {
     if (text.isEmpty()) {
       JOptionPane.showMessageDialog(null, "Bitte Produkt eingeben!");
@@ -74,6 +106,9 @@ public class Produktarbeit {
     liste.ensureIndexIsVisible(lastIndex);
   }
 
+  /**
+   * Sortiert die Einkaufsliste nach den Abteilungen der Produkte.
+   */
   public void sortieren() {
     ArrayList<Produkt> tempListe = new ArrayList<>();
 
