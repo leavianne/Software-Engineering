@@ -29,4 +29,19 @@ public class Dateiarbeit {
   public ArrayList<String> getProdukte() {
     return produkte;
   }
+
+  public String getNaehrwerte(String produktname) {
+    String sql = "SELECT naehrwerte FROM produkte WHERE produktname = ?";
+    try (Connection conn = DatabaseConfig.getConnection();
+         PreparedStatement pstmt = conn.prepareStatement(sql)) {
+      pstmt.setString(1, produktname);
+      ResultSet rs = pstmt.executeQuery();
+      if (rs.next()) {
+        return rs.getString("naehrwerte");
+      }
+    } catch (SQLException e) {
+      e.printStackTrace();
+    }
+    return null;
+  }
 }
