@@ -211,6 +211,17 @@ public class TestListe {
     assertFalse(bekanntesProdukt.isEmpty());
   }
 
+  /**
+   * Test 9: Produktinformationen unbekanntes Produkt
+   */
+  @Test
+  @DisplayName("Test 9: unbekannte Produktinformationen abrufen")
+  public void testUnbekannteProduktinformationen() {
+    Dateiarbeit daten = new Dateiarbeit();
+    String bekanntesProdukt = daten.getNaehrwerte("UnbekanntesProdukt");
+    assertNull(bekanntesProdukt, "Für das unbekannte Produkt sollten keine Nährwerte vorhanden sein.");
+  }
+
   // Hilfsmethode, um den aktuellen Zustand der Liste zu speichern
   private String[] aktuellerListenZustand() {
     String[] zustand = new String[listModel.size()];
