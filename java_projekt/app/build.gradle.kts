@@ -46,7 +46,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.Start"
+    mainClass = "org.example.Main"
 }
 
 tasks.named<Test>("test") {
@@ -92,24 +92,26 @@ tasks.register<JavaExec>("obfuscateJar") {
         "-dontwarn",
         "-forceprocessing",
 
-        /*
-        Wir haben sehr lang und ausführlich versucht, die Obfuscation mit diesem Gradle Task und auch der separaten
-        ProGuard GUI zum Laufen zu bringen, aber die App läuft bei Anwendung der Obfuscation (sowohl mit
-        Shrinking und Optimizing als auch ohne) nicht korrekt. Wir haben recherchiert und die .jars untersucht, um das Problem
-        besser zu verstehen, aber sind noch zu keiner Lösung gekommen.
-
-        Aus Zeitgründen haben wir uns dann entschieden, die schon funktionierende .jar,
-        welche als Artefakt durch IntelliJ erstellt wurde, unobfuscated zu lassen.
-        Jedoch haben wir den ObfuscateJar Task im build script behalten, um es gelegentlich später noch zu berichtigen bzw.
-        um zu zeigen, dass wir diesen Schritt zumindest versucht und nicht vergessen haben.
-        */
-        "-dontobfuscate",
-        "-dontshrink","-dontoptimize",
+        "-dontshrink",
+        "-dontoptimize",
         "-dontpreverify",
+        //"-keeppackagenames",
 
+        //Main Klasse Behalten
+        "-keep class org.example.Main { *; }",
 
-        "-keep class org.example.Main { public static void main(...); }",
-        "-keep class org.example.** { *; }",
+        //Alles was nicht org.example ist in org package behalten
+        "-keep class org.apache.** { *; }",
+        "-keep class org.intellij.** { *; }",
+        "-keep class org.jetbrains.** { *; }",
+        "-keep class org.json.** { *; }",
+        "-keep class org.jspecify.** { *; }",
+        "-keep class org.sqlite.** { *; }",
+
+        "-keep class com.** { *; }",
+        "-keep class kotlin.** { *; }",
+        "-keep class proguard.** { *; }",
+
         "-keepattributes Signature,Exceptions,*Annotation*",
         "-verbose"
     )
@@ -125,3 +127,6 @@ tasks.register<JavaExec>("obfuscateJar") {
 tasks.named("build") {
     finalizedBy("obfuscateJar")
 }
+
+
+//Im cmd ausführen mit: java -jar -noverify --enable-native-access=ALL-UNNAMED app-all-obfuscated.jar ausführen, um Fehler und Warnungen zu unterdrücken
