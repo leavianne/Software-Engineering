@@ -3,10 +3,18 @@ package org.example;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Zeigt ein separates Fenster mit dem Aufbauplan des Supermarkts an.
+ * 
+ * Das Bild wird aus den Ressourcen geladen und automatisch an die Fenstergröße angepasst.
+ */
 public class getAufbau extends JFrame {
 
   private Image img;
 
+  /**
+   * Erstellt und öffnet das Fenster mit dem Aufbauplan.
+   */
   public getAufbau() {
     setTitle("Schobbow Aufbau");
     setSize(500, 500);
