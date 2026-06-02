@@ -7,6 +7,13 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
 
+/**
+ * Erstellt eine AutoComplete-Funktion für ein Texteingabefeld.
+ * 
+ * Während der Eingabe werden passende Produktnamen aus einer übergebenen Produktliste
+ * gesucht und als Vorschläge in einem Popup-Menü angezeigt. Die Vorschläge können der Maus
+ * oder Tastatur übernommen werden.
+ */
 public class AutoComplete {
 
   private JTextField inputTextField;
@@ -16,6 +23,12 @@ public class AutoComplete {
   private int selectedIndex = -1;
   private boolean vorschlagAusgewaehlt = false;
 
+  /**
+   * Initialisiert die AutoComplete-Funktion für ein bestimmtes Texteingabefeld.
+   * 
+   * @param inputTextField Texteingabefeld, für das die Vorschläge angezeigt werden sollen
+   * @param produktListe Liste der Produktnamen, aus denen passende Vorschläge gesucht werden
+   */
   public AutoComplete(JTextField inputTextField, ArrayList<String> produktListe) {
     this.inputTextField = inputTextField;
     this.produktListe = produktListe;
@@ -88,6 +101,12 @@ public class AutoComplete {
     });
   }
 
+  /**
+   * Aktualisiert die angezeigten  AutoComplete-Vorschläge anhand der aktuellen Eingabe.
+   * 
+   * Es werden maximal zehn Produktnamen angezeigt, die mit dem eingegebenen Text beginnen.
+   * Bei leerer Eingabe oder ohne Treffer wird das Popup-Menü ausgeblendet.
+   */
   private void updateAutoComplete() {
     if (isUpdating) {
       return;
@@ -163,6 +182,9 @@ public class AutoComplete {
     }
   }
 
+  /**
+   * Schließt das AutoComplete-Menü und setzt die aktuelle Auswahl zurück.
+   */
   public void close() {
     autoCompleteMenu.setVisible(false);
     vorschlagAusgewaehlt = false;
