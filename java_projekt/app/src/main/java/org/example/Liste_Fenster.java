@@ -17,6 +17,7 @@ public class Liste_Fenster extends JFrame {
   private JComboBox<Integer> auswahlAnzahl;
   private JButton aufbauButton;
   private JTextField inputTextField;
+  private Dateiarbeit daten;
 
   // Lists
   private DefaultListModel<Produkt> listModel;
@@ -129,7 +130,7 @@ public class Liste_Fenster extends JFrame {
 
     // Initialize model and services
     produktarbeit = new Produktarbeit(listModel, liste);
-    Dateiarbeit daten = new Dateiarbeit();
+    daten = new Dateiarbeit();
     produktListe = daten.getProdukte();
     autoComplete = new AutoComplete(inputTextField, produktListe);
   }
@@ -211,6 +212,18 @@ public class Liste_Fenster extends JFrame {
     loeschen.addActionListener(e -> {
       int index = liste.getSelectedIndex();
       produktarbeit.loeschen(index);
+    });
+
+    infos.addActionListener(e -> {
+      int index = liste.getSelectedIndex();
+      if (index != -1) {
+        Produkt p = listModel.getElementAt(index);
+        String naehrwerte = daten.getNaehrwerte(p.getName());
+        if (naehrwerte == null || naehrwerte.isEmpty()) {
+          naehrwerte = "Unbekanntes Produkt";
+        }
+        new getProduktinformationen(p.getName(), naehrwerte);
+      }
     });
 
     // Change quantity
