@@ -48,6 +48,24 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
+tasks.register("cleanOldDatabase") {
+    description = "Alte Database Datei aus Temp löschen, damit Tests ordentlich durchgeführt werden können"
+    doFirst {
+        val tempDir = System.getProperty("java.io.tmpdir")
+        val dbFile = File(tempDir, "supermarkt-app/supermarkt.db")
+        if (dbFile.exists()) {
+            dbFile.delete()
+            println("Alte supermarkt.db Datei gelöscht: ${dbFile.absolutePath}")
+        }
+    }
+}
+
+//Der Clean old Database Task MUSS vor dem Test Task ausgeführt werden, weil sonst der 8. Test nicht richtig funktioniert
+tasks.named<Test>("test") {
+    dependsOn("cleanOldDatabase")
+    useJUnitPlatform()
+}
+
 //Bevor man diesen Task ausführt, bitte unter build->buildArtifacts die Input-.jar Datei generieren lassen.
 tasks.register<JavaExec>("obfuscateJar") {
     group = "build"
