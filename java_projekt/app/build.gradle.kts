@@ -8,6 +8,11 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     application
+
+    // Damit ShadowJar funktioniert
+    java
+    id("org.jetbrains.kotlin.jvm") version "2.4.0-RC2"
+    id("com.gradleup.shadow") version "9.3.0"
 }
 
 repositories {
@@ -29,6 +34,7 @@ dependencies {
 
     //Obfuscation
     implementation("com.guardsquare:proguard-gradle:7.9.1")
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
@@ -48,6 +54,7 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
+
 tasks.register("cleanOldDatabase") {
     description = "Alte Database Datei aus Temp löschen, damit Tests ordentlich durchgeführt werden können"
     doFirst {
@@ -66,21 +73,14 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
-//Bevor man diesen Task ausführt, bitte unter build->buildArtifacts die Input-.jar Datei generieren lassen.
+//ObfuscateJar Task mit Proguard
 tasks.register<JavaExec>("obfuscateJar") {
     group = "build"
     description = "Obfuscate JAR from IntelliJ artifacts using ProGuard"
 
     // Path to IntelliJ artifact JAR
-    val inputJar = File("${project.rootDir}/out/artifacts/SchobbowAppNeu_jar/SchobbowAppNeu.jar")
-    val outputJar = File("${project.rootDir}/out/artifacts/SchobbowAppNeu_jar/SchobbowAppNeuObfuscated.jar")
-
-    if (!inputJar.exists()) {
-        doFirst {
-            throw GradleException("Input JAR not found: ${inputJar.absolutePath}\n" +
-                    "Please build the artifact in IntelliJ first (Build > Build Artifacts > app_jar > Build)")
-        }
-    }
+    val inputJar = File("${project.rootDir}/app/build/libs/app-all.jar")
+    val outputJar = File("${project.rootDir}/app/build/libs/app-all-obfuscated.jar")
 
     classpath(configurations.runtimeClasspath.get())
     mainClass.set("proguard.ProGuard")
@@ -120,4 +120,8 @@ tasks.register<JavaExec>("obfuscateJar") {
             println("Size: ${outputJar.length() / 1024}KB")
         }
     }
+}
+
+tasks.named("build") {
+    finalizedBy("obfuscateJar")
 }
