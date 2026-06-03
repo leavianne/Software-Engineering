@@ -148,7 +148,7 @@ tasks.register<Copy>("copyJarToFinal") {
     dependsOn("shadowJar")
     from("${project.rootDir}/app/build/libs/app-all.jar")
     into("../../final")
-    rename { "Schobbow_Einkaufsliste.jar" }
+    rename { "Schobbow_Einkaufsliste_Version1_1.jar" }
 }
 
 tasks.named("build") {
