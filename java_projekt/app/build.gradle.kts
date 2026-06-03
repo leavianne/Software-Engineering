@@ -135,14 +135,31 @@ tasks.register<JavaExec>("obfuscateJar") {
 }
 
 tasks.javadoc {
-    destinationDir = file("../final/javadoc")
+    destinationDir = file("../../final/javadoc")
     options.encoding = "UTF-8"
     options.windowTitle = "Schobbow Einkaufsliste API"
     (options as StandardJavadocDocletOptions).docTitle = "Schobbow Einkaufsliste – Dokumentation"
     (options as StandardJavadocDocletOptions).addStringOption("Xdoclint:all", "-quiet")
 }
 
+tasks.register<Copy>("copyobfuscateJarToFinal") {
+    dependsOn("obfuscateJar")
+    from("${project.rootDir}/app/build/libs/app-all-obfuscated.jar")
+    into("../../final")
+    rename { "schobbow-app-obfuscate.jar" }
+}
+
+tasks.register<Copy>("copyJarToFinal") {
+    dependsOn("shadowJar")
+    from("${project.rootDir}/app/build/libs/app-all.jar")
+    into("../../final")
+    rename { "schobbow-app.jar" }
+}
+
 tasks.named("build") {
-  finalizedBy("obfuscateJar")
+  finalizedBy("obfuscateJar");
+  dependsOn(tasks.javadoc);
+  finalizedBy("copyobfuscateJarToFinal");
+  finalizedBy("copyJarToFinal")
 }
 
