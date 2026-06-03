@@ -12,6 +12,8 @@ import java.util.Properties;
  * 
  * Die Klasse lädt die Datenbankkonfiguration aus der Datei {@code config.properties}.
  * Falls keine Konfigurationsdatei gefunden wird, wird ein Standardname für die Datenbankdatei verwendet.
+ * @author Lea Eichler
+ * @version 1.0
  */
 public class DatabaseConfig {
 
@@ -31,6 +33,15 @@ public class DatabaseConfig {
       System.err.println("Fehler beim Laden der config.properties.");
       properties.setProperty("db.file", "supermarkt.db");
     }
+  }
+
+  /**
+   * Privater Standardkonstruktor, um die Instanziierung dieser Utility-Klasse zu verhindern.
+   * <p>Diese Klasse enthält nur statische Methoden und sollte nicht instanziiert werden.</p>
+   */
+  private DatabaseConfig() {
+    // Verhindert die Erzeugung von Objekten dieser Klasse
+    throw new UnsupportedOperationException("Diese Utility-Klasse darf nicht instanziiert werden.");
   }
 
   /**

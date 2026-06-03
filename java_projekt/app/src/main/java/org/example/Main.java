@@ -17,11 +17,11 @@ public class Main {
 
   /**
    * Einstiegspunkt der Anwendung
-   * <ul>
-   *     <li>Setzt Nimbus Look & Feel für eine modernere Oberfläche</li>
-   *     <li>Prüft Verbindung zur Datenbank (SQLite) </li>
-   *     <li>Öffnet Startfenster {@link Startseite}</li>
-   * </ul>
+   *
+   * Setzt Nimbus Look und Feel für eine modernere Oberfläche
+   * Prüft Verbindung zur Datenbank (SQLite)
+   * Öffnet Startfenster {@link Startseite}
+   *
    * @param args (wird nicht verwendet)
    */
 
@@ -37,9 +37,7 @@ public class Main {
 
   /**
    * Stellt eine Verbindung zur Datenbank her und prüft deren Verfügbarkeit.
-   * <p>
-   *      Bei erfolgreicher Verbindung wird eine Bestätigung auf der Konsole ausgegeben. Tritt ein {@link SQLException} auf, wird eine Fehlermeldung auf der Konsole sowie in einem Dialogfenster angezeigt. Die Anwendung wird anschließend mit dem Exit-Code 0 beendet.
-   * </p>
+   * Bei erfolgreicher Verbindung wird eine Bestätigung auf der Konsole ausgegeben. Tritt ein {@link SQLException} auf, wird eine Fehlermeldung auf der Konsole sowie in einem Dialogfenster angezeigt. Die Anwendung wird anschließend mit dem Exit-Code 0 beendet.
    *
    * @see DatabaseConfig#getConnection()
    * @see DatabaseConfig#getConfigPath()

@@ -7,6 +7,8 @@ import java.awt.*;
  * Zeigt ein separates Fenster mit den Produktinformationen eines ausgewählten Produkts an.
  * 
  * Die übergebenen Nährwerte werden formatiert und in einem nicht bearbeitbaren Textfeld dargestellt.
+ * @author Lea Eichler
+ * @version 1.1
  */
 public class getProduktinformationen extends JFrame {
 

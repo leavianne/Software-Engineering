@@ -5,13 +5,11 @@ import java.awt.*;
 
 /**
  * Das Startfenster der Anwendung "Schobbow - Einkaufsliste".
- * <p>
  * Es zeigt ein Logo, einen Begrüßungstext sowie zwei Aktionsbuttons:
  * <ul>
  *     <li>„Einkaufsliste öffnen“ – öffnet das Hauptfenster {@link Liste_Fenster} und schließt die Startseite.</li>
  *     <li>„Neue Liste erstellen“ – zeigt eine Informationsmeldung (aktuell noch Platzhalter).</li>
  * </ul>
- * </p>
  *
  * @author Lea Eichler
  * @version 1.0
@@ -34,6 +32,8 @@ public class Startseite extends JFrame {
    * Ressource geladen, das Benutzerinterface wird aufgebaut, Listener und
    * Schriftarten werden konfiguriert. Abschließend wird das Panel sichtbar gemacht.
    * </p>
+   * @author Lea Eichler
+   * @version 1.1
    */
 
   public Startseite() {

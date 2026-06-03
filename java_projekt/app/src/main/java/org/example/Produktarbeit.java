@@ -9,6 +9,8 @@ import java.util.Comparator;
  * 
  * Die Klasse arbeitet direkt mit dem Listenmodell und der sichtbaren JList. Dadurch können
  * Produkte hinzugefügt, gelöscht, sortiert, abgehackt oder in ihrer Anzahl geändert werden.
+ * @author Lea Eichler
+ * @version 1.0
  */
 public class Produktarbeit {
 

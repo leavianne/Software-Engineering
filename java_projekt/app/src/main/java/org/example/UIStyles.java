@@ -7,6 +7,8 @@ import java.awt.*;
  * 
  * Durch diese Klassen können mehrere UI-Komponenten dieselben Schriftarten verwenden,
  * ohne dass sie in jeder Klasse einzeln neu definiert werden müssen.
+ * @author Amelie Trautmann
+ * @version 1.0
  */
 public class UIStyles {
 

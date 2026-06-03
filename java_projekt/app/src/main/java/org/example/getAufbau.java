@@ -7,6 +7,8 @@ import java.awt.*;
  * Zeigt ein separates Fenster mit dem Aufbauplan des Supermarkts an.
  * 
  * Das Bild wird aus den Ressourcen geladen und automatisch an die Fenstergröße angepasst.
+ * @author Lea Eichler
+ * @version 1.0
  */
 public class getAufbau extends JFrame {
 

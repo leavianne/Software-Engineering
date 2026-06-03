@@ -9,6 +9,8 @@ import java.util.Map;
  * 
  * Ein Produkt besitzt einen Namen, eine Anzahl, einen Kaufstatus und eine Abteilung.
  * Die Abteilung wird mithilfe eines statischen Caches aus der Datenbank geladen.
+ * @author Lea Eichler
+ * @version 1.0
  */
 public class Produkt {
 

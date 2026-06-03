@@ -8,6 +8,8 @@ import java.util.ArrayList;
  * 
  * Die Klasse wird unter anderem für die AutoComplete-Funktion und für das Anzeigen
  * von Nährwertinformationen verwendet.
+ * @author Lea Eichler
+ * @version 1.1
  */
 public class Dateiarbeit {
 

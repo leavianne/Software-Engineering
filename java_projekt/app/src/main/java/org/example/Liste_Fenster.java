@@ -8,19 +8,17 @@ import java.util.ArrayList;
 
 /**
  * Das Hauptfenster für die Einkaufsliste der Anwendung "Schobbow".
- * <p>
+ *
  * Dieses Fenster ermöglicht dem Benutzer:
- * <ul>
- *     <li>Produkte zur Liste hinzuzufügen (mit Autovervollständigung aus der Datenbank)</li>
- *     <li>Die Anzahl eines Produkts zu ändern</li>
- *     <li>Produkte als gekauft zu markieren (abzuhaken)</li>
- *     <li>Produkte zu löschen</li>
- *     <li>Die Liste nach Abteilungen zu sortieren</li>
- *     <li>Nährwertinformationen zu einem Produkt anzuzeigen</li>
- *     <li>Den Ladenaufbau (Marktplan) anzuzeigen</li>
- * </ul>
+ * Produkte zur Liste hinzuzufügen (mit Autovervollständigung aus der Datenbank)  
+ * Die Anzahl eines Produkts zu ändern  
+ * Produkte als gekauft zu markieren (abzuhaken)  
+ * Produkte zu löschen  
+ * Die Liste nach Abteilungen zu sortieren  
+ * Nährwertinformationen zu einem Produkt anzuzeigen  
+ * Den Ladenaufbau (Marktplan) anzuzeigen  
+ *
  * Die Oberfläche verwendet ein {@link GridBagLayout}, um die Komponenten zu positionieren.
- * </p>
  *
  * @author Amelie Trautmann, Lea Eichler
  * @version 1.1
@@ -47,11 +45,9 @@ public class Liste_Fenster extends JFrame {
 
   /**
    * Erzeugt das Hauptfenster der Einkaufsliste.
-   * <p>
    * Initialisiert die Fenstergröße (720x512), das Icon, das Layout,
    * erstellt alle UI-Komponenten, konfiguriert Listener und Schriftarten
    * und macht das Fenster sichtbar.
-   * </p>
    */
 
   public Liste_Fenster() {
@@ -79,16 +75,11 @@ public class Liste_Fenster extends JFrame {
 
   /**
    * Erzeugt und platziert alle grafischen Komponenten des Fensters.
-   * <p>
    * Verwendet {@link GridBagConstraints}, um die folgenden Elemente anzuordnen:
-   * <ul>
-   *     <li>Zeile 0: ComboBox für Filiale, Button "sortieren", Button "Aufbau"</li>
-   *     <li>Zeile 1: Scrollbare Liste der Produkte</li>
-   *     <li>Zeile 2: ComboBox für Anzahl, Textfeld für Produktname, Button "hinzufügen"</li>
-   * </ul>
-   * Außerdem werden die Hilfsobjekte {@link Produktarbeit}, {@link Dateiarbeit}
-   * und {@link AutoComplete} initialisiert.
-   * </p>
+   *      Zeile 0: ComboBox für Filiale, Button "sortieren", Button "Aufbau"  
+   *      Zeile 1: Scrollbare Liste der Produkte  
+   *      Zeile 2: ComboBox für Anzahl, Textfeld für Produktname, Button "hinzufügen"
+   * Außerdem werden die Hilfsobjekte {@link Produktarbeit}, {@link Dateiarbeit} und {@link AutoComplete} initialisiert.
    */
 
   private void createComponents() {
@@ -180,10 +171,8 @@ public class Liste_Fenster extends JFrame {
 
   /**
    * Konfiguriert den Zellen-Renderer für die JList.
-   * <p>
    * Jedes Listenelement wird als {@link JCheckBox} dargestellt, die den Produktnamen
    * mit Anzahl anzeigt und den gekauft-Status visuell widerspiegelt.
-   * </p>
    */
 
   private void setupListRenderer() {
@@ -213,22 +202,15 @@ public class Liste_Fenster extends JFrame {
 
   /**
    * Registriert alle Aktions- und Maus-Listener für die Bedienelemente.
-   * <p>
    * Folgende Interaktionen werden behandelt:
-   * <ul>
-   *     <li>Klick auf "Aufbau" → öffnet {@link getAufbau} (Ladenplan)</li>
-   *     <li>Klick auf "hinzufügen" → fügt Produkt zur Liste hinzu (mit Autocomplete)</li>
-   *     <li>Klick auf ein Listenelement → wechselt den gekauft-Status des Produkts</li>
-   *     <li>Klick auf "sortieren" → sortiert die Liste nach Abteilungen</li>
-   *     <li>Rechtsklick auf ein Listenelement → öffnet Kontextmenü mit:
-   *         <ul>
-   *             <li>Anzahl ändern</li>
-   *             <li>Löschen</li>
-   *             <li>Produktinformationen (Nährwerte)</li>
-   *         </ul>
-   *     </li>
-   * </ul>
-   * </p>
+   * Klick auf "Aufbau" → öffnet {@link getAufbau} (Ladenplan)
+   * Klick auf "hinzufügen" → fügt Produkt zur Liste hinzu (mit Autocomplete)
+   * Klick auf ein Listenelement → wechselt den gekauft-Status des Produkts
+   * Klick auf "sortieren" → sortiert die Liste nach Abteilungen
+   * Rechtsklick auf ein Listenelement → öffnet Kontextmenü mit:
+   * Anzahl ändern
+   * Löschen
+   * Produktinformationen (Nährwerte)
    */
 
   private void setupListeners() {

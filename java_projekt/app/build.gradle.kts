@@ -134,6 +134,14 @@ tasks.register<JavaExec>("obfuscateJar") {
     }
 }
 
+tasks.javadoc {
+    destinationDir = file("../final/javadoc")
+    options.encoding = "UTF-8"
+    options.windowTitle = "Schobbow Einkaufsliste API"
+    (options as StandardJavadocDocletOptions).docTitle = "Schobbow Einkaufsliste – Dokumentation"
+    (options as StandardJavadocDocletOptions).addStringOption("Xdoclint:all", "-quiet")
+}
+
 tasks.named("build") {
   finalizedBy("obfuscateJar")
 }

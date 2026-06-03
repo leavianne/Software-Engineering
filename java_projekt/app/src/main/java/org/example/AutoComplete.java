@@ -13,6 +13,9 @@ import java.util.ArrayList;
  * Während der Eingabe werden passende Produktnamen aus einer übergebenen Produktliste
  * gesucht und als Vorschläge in einem Popup-Menü angezeigt. Die Vorschläge können der Maus
  * oder Tastatur übernommen werden.
+ *
+ * @author Lea Eichler
+ * @version 1.0
  */
 public class AutoComplete {
 
@@ -125,7 +128,7 @@ public class AutoComplete {
       if (produkt.toLowerCase().startsWith(input)) {
         JMenuItem item = new JMenuItem(produkt);
 
-        // ⭐ Mausklick-Funktion hinzufügen
+        // Mausklick-Funktion hinzufügen
         item.addMouseListener(new MouseListener() {
           @Override
           public void mouseClicked(MouseEvent e) {
