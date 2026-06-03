@@ -134,6 +134,7 @@ tasks.register<JavaExec>("obfuscateJar") {
     }
 }
 
+//Javadoc als html exportieren
 tasks.javadoc {
     destinationDir = file("../../final/javadoc")
     options.encoding = "UTF-8"
@@ -142,24 +143,17 @@ tasks.javadoc {
     (options as StandardJavadocDocletOptions).addStringOption("Xdoclint:all", "-quiet")
 }
 
-tasks.register<Copy>("copyobfuscateJarToFinal") {
-    dependsOn("obfuscateJar")
-    from("${project.rootDir}/app/build/libs/app-all-obfuscated.jar")
-    into("../../final")
-    rename { "schobbow-app-obfuscate.jar" }
-}
-
+//Die un-obfuscated ShadowJar in den Final-Ordner verschieben und umbenennen
 tasks.register<Copy>("copyJarToFinal") {
     dependsOn("shadowJar")
     from("${project.rootDir}/app/build/libs/app-all.jar")
     into("../../final")
-    rename { "schobbow-app.jar" }
+    rename { "Schobbow_Einkaufsliste.jar" }
 }
 
 tasks.named("build") {
   finalizedBy("obfuscateJar");
   dependsOn(tasks.javadoc);
-  finalizedBy("copyobfuscateJarToFinal");
   finalizedBy("copyJarToFinal")
 }
 
