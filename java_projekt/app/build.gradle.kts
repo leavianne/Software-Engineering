@@ -27,6 +27,7 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
     // This dependency is used by the application.
+    //implementation("com.google.guava:guava:33.5.0-jre")
     implementation(libs.guava)
 
     //Database dependencies, from  https://central.sonatype.com/artifact/org.xerial/sqlite-jdbc?smo=true
@@ -54,7 +55,6 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
-
 tasks.register("cleanOldDatabase") {
     description = "Alte Database Datei aus Temp löschen, damit Tests ordentlich durchgeführt werden können"
     doFirst {
@@ -76,7 +76,7 @@ tasks.named<Test>("test") {
 //ObfuscateJar Task mit Proguard
 tasks.register<JavaExec>("obfuscateJar") {
     group = "build"
-    description = "Obfuscate JAR from IntelliJ artifacts using ProGuard"
+    description = "Generierte ShadowJar mit Proguard Obfuscaten"
 
     // Path to IntelliJ artifact JAR
     val inputJar = File("${project.rootDir}/app/build/libs/app-all.jar")
@@ -89,13 +89,13 @@ tasks.register<JavaExec>("obfuscateJar") {
         "-injars", inputJar.absolutePath,
         "-outjars", outputJar.absolutePath,
         "-libraryjars", "${System.getProperty("java.home")}/lib/modules",
-        "-dontwarn",
         "-forceprocessing",
+        "-verbose",
 
         "-dontshrink",
         "-dontoptimize",
-        "-dontpreverify",
-        //"-keeppackagenames",
+        "-keeppackagenames",
+        "-dontwarn",
 
         //Main Klasse Behalten
         "-keep class org.example.Main { *; }",
@@ -112,9 +112,19 @@ tasks.register<JavaExec>("obfuscateJar") {
         "-keep class kotlin.** { *; }",
         "-keep class proguard.** { *; }",
 
-        "-keepattributes Signature,Exceptions,*Annotation*",
-        "-verbose"
-    )
+        "-keepdirectories META-INF/**",
+        "-keepattributes Signature,Exceptions,InnerClasses,SourceFile,LineNumberTable",
+
+        /*Diese Option ist an, damit der Task fertiggestellt wird.
+        Die Output-Jar wird aber nicht starten, da wir immer noch nicht den Fehler gefunden haben.
+        wenn man beide jars mit "jarcomp" vergleicht, scheint ProGuard beim Processing trotzdem etwas mit allen classes in der jar zu machen,
+        sodass die Fehlermeldung kommt, dass es eine superclass nicht finden kann.
+
+        Auch wenn man die obfuscation komplett ausstellt, kommt immer noch derselbe Fehler, also hat es nichts mit der Obfuscation
+        zu tun, sondern damit, wie ProGuard die jar processed.
+         */
+        "-dontpreverify",
+        )
 
     doLast {
         if (outputJar.exists()) {
@@ -125,8 +135,6 @@ tasks.register<JavaExec>("obfuscateJar") {
 }
 
 tasks.named("build") {
-    finalizedBy("obfuscateJar")
+  finalizedBy("obfuscateJar")
 }
 
-
-//Im cmd ausführen mit: java -jar -noverify --enable-native-access=ALL-UNNAMED app-all-obfuscated.jar ausführen, um Fehler und Warnungen zu unterdrücken
