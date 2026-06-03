@@ -8,6 +8,11 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     application
+
+    // Damit ShadowJar funktioniert
+    java
+    id("org.jetbrains.kotlin.jvm") version "2.4.0-RC2"
+    id("com.gradleup.shadow") version "9.3.0"
 }
 
 repositories {
@@ -22,6 +27,7 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
     // This dependency is used by the application.
+    //implementation("com.google.guava:guava:33.5.0-jre")
     implementation(libs.guava)
 
     //Database dependencies, from  https://central.sonatype.com/artifact/org.xerial/sqlite-jdbc?smo=true
@@ -29,6 +35,7 @@ dependencies {
 
     //Obfuscation
     implementation("com.guardsquare:proguard-gradle:7.9.1")
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
@@ -40,7 +47,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.Start"
+    mainClass = "org.example.Main"
 }
 
 tasks.named<Test>("test") {
@@ -48,21 +55,32 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
-//Bevor man diesen Task ausführt, bitte unter build->buildArtifacts die Input-.jar Datei generieren lassen.
-tasks.register<JavaExec>("obfuscateJar") {
-    group = "build"
-    description = "Obfuscate JAR from IntelliJ artifacts using ProGuard"
-
-    // Path to IntelliJ artifact JAR
-    val inputJar = File("${project.rootDir}/out/artifacts/SchobbowAppNeu_jar/SchobbowAppNeu.jar")
-    val outputJar = File("${project.rootDir}/out/artifacts/SchobbowAppNeu_jar/SchobbowAppNeuObfuscated.jar")
-
-    if (!inputJar.exists()) {
-        doFirst {
-            throw GradleException("Input JAR not found: ${inputJar.absolutePath}\n" +
-                    "Please build the artifact in IntelliJ first (Build > Build Artifacts > app_jar > Build)")
+tasks.register("cleanOldDatabase") {
+    description = "Alte Database Datei aus Temp löschen, damit Tests ordentlich durchgeführt werden können"
+    doFirst {
+        val tempDir = System.getProperty("java.io.tmpdir")
+        val dbFile = File(tempDir, "supermarkt-app/supermarkt.db")
+        if (dbFile.exists()) {
+            dbFile.delete()
+            println("Alte supermarkt.db Datei gelöscht: ${dbFile.absolutePath}")
         }
     }
+}
+
+//Der Clean old Database Task MUSS vor dem Test Task ausgeführt werden, weil sonst der 8. Test nicht richtig funktioniert
+tasks.named<Test>("test") {
+    dependsOn("cleanOldDatabase")
+    useJUnitPlatform()
+}
+
+//ObfuscateJar Task mit Proguard
+tasks.register<JavaExec>("obfuscateJar") {
+    group = "build"
+    description = "Generierte ShadowJar mit Proguard Obfuscaten"
+
+    // Path to IntelliJ artifact JAR
+    val inputJar = File("${project.rootDir}/app/build/libs/app-all.jar")
+    val outputJar = File("${project.rootDir}/app/build/libs/app-all-obfuscated.jar")
 
     classpath(configurations.runtimeClasspath.get())
     mainClass.set("proguard.ProGuard")
@@ -71,30 +89,42 @@ tasks.register<JavaExec>("obfuscateJar") {
         "-injars", inputJar.absolutePath,
         "-outjars", outputJar.absolutePath,
         "-libraryjars", "${System.getProperty("java.home")}/lib/modules",
-        "-dontwarn",
         "-forceprocessing",
+        "-verbose",
 
-        /*
-        Wir haben sehr lang und ausführlich versucht, die Obfuscation mit diesem Gradle Task und auch der separaten
-        ProGuard GUI zum Laufen zu bringen, aber die App läuft bei Anwendung der Obfuscation (sowohl mit
-        Shrinking und Optimizing als auch ohne) nicht korrekt. Wir haben recherchiert und die .jars untersucht, um das Problem
-        besser zu verstehen, aber sind noch zu keiner Lösung gekommen.
+        "-dontshrink",
+        "-dontoptimize",
+        "-keeppackagenames",
+        "-dontwarn",
 
-        Aus Zeitgründen haben wir uns dann entschieden, die schon funktionierende .jar,
-        welche als Artefakt durch IntelliJ erstellt wurde, unobfuscated zu lassen.
-        Jedoch haben wir den ObfuscateJar Task im build script behalten, um es gelegentlich später noch zu berichtigen bzw.
-        um zu zeigen, dass wir diesen Schritt zumindest versucht und nicht vergessen haben.
-        */
-        "-dontobfuscate",
-        "-dontshrink","-dontoptimize",
+        //Main Klasse Behalten
+        "-keep class org.example.Main { *; }",
+
+        //Alles was nicht org.example ist in org package behalten
+        "-keep class org.apache.** { *; }",
+        "-keep class org.intellij.** { *; }",
+        "-keep class org.jetbrains.** { *; }",
+        "-keep class org.json.** { *; }",
+        "-keep class org.jspecify.** { *; }",
+        "-keep class org.sqlite.** { *; }",
+
+        "-keep class com.** { *; }",
+        "-keep class kotlin.** { *; }",
+        "-keep class proguard.** { *; }",
+
+        "-keepdirectories META-INF/**",
+        "-keepattributes Signature,Exceptions,InnerClasses,SourceFile,LineNumberTable",
+
+        /*Diese Option ist an, damit der Task fertiggestellt wird.
+        Die Output-Jar wird aber nicht starten, da wir immer noch nicht den Fehler gefunden haben.
+        wenn man beide jars mit "jarcomp" vergleicht, scheint ProGuard beim Processing trotzdem etwas mit allen classes in der jar zu machen,
+        sodass die Fehlermeldung kommt, dass es eine superclass nicht finden kann.
+
+        Auch wenn man die obfuscation komplett ausstellt, kommt immer noch derselbe Fehler, also hat es nichts mit der Obfuscation
+        zu tun, sondern damit, wie ProGuard die jar processed.
+         */
         "-dontpreverify",
-
-
-        "-keep class org.example.Main { public static void main(...); }",
-        "-keep class org.example.** { *; }",
-        "-keepattributes Signature,Exceptions,*Annotation*",
-        "-verbose"
-    )
+        )
 
     doLast {
         if (outputJar.exists()) {
@@ -103,3 +133,27 @@ tasks.register<JavaExec>("obfuscateJar") {
         }
     }
 }
+
+//Javadoc als html exportieren
+tasks.javadoc {
+    destinationDir = file("../../final/javadoc")
+    options.encoding = "UTF-8"
+    options.windowTitle = "Schobbow Einkaufsliste API"
+    (options as StandardJavadocDocletOptions).docTitle = "Schobbow Einkaufsliste – Dokumentation"
+    (options as StandardJavadocDocletOptions).addStringOption("Xdoclint:all", "-quiet")
+}
+
+//Die un-obfuscated ShadowJar in den Final-Ordner verschieben und umbenennen
+tasks.register<Copy>("copyJarToFinal") {
+    dependsOn("shadowJar")
+    from("${project.rootDir}/app/build/libs/app-all.jar")
+    into("../../final")
+    rename { "Schobbow_Einkaufsliste.jar" }
+}
+
+tasks.named("build") {
+  finalizedBy("obfuscateJar");
+  dependsOn(tasks.javadoc);
+  finalizedBy("copyJarToFinal")
+}
+

@@ -199,6 +199,29 @@ public class TestListe {
         "Erster Eintrag (Äpfel) sollte Anzahl 3 haben");
   }
 
+  /**
+   * Test 8: Produktinformationen bekanntes Produkt
+   */
+  @Test
+  @DisplayName("Test 8: bekannte Produktinformationen abrufen")
+  public void testProduktinformationen() {
+    Dateiarbeit daten = new Dateiarbeit();
+    String bekanntesProdukt = daten.getNaehrwerte("Mehl");
+    assertNotNull(bekanntesProdukt, "Für das bekannte Produkt sollten Nährwerte vorhanden sein.");
+    assertFalse(bekanntesProdukt.isEmpty());
+  }
+
+  /**
+   * Test 9: Produktinformationen unbekanntes Produkt
+   */
+  @Test
+  @DisplayName("Test 9: unbekannte Produktinformationen abrufen")
+  public void testUnbekannteProduktinformationen() {
+    Dateiarbeit daten = new Dateiarbeit();
+    String bekanntesProdukt = daten.getNaehrwerte("UnbekanntesProdukt");
+    assertNull(bekanntesProdukt, "Für das unbekannte Produkt sollten keine Nährwerte vorhanden sein.");
+  }
+
   // Hilfsmethode, um den aktuellen Zustand der Liste zu speichern
   private String[] aktuellerListenZustand() {
     String[] zustand = new String[listModel.size()];

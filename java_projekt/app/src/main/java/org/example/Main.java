@@ -4,7 +4,26 @@ import javax.swing.*;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-public class Start {
+/**
+ * Hauptklasse für die Funktion: "Schobbow - Einkaufsliste"
+ * Sie initialisiert das Design und prüft die Datenbankverbindung
+ * und startet das Fenster (Startseite)
+ *
+ * @author Lea Eichler
+ * @version 1.0
+ */
+
+public class Main {
+
+  /**
+   * Einstiegspunkt der Anwendung
+   *
+   * Setzt Nimbus Look und Feel für eine modernere Oberfläche
+   * Prüft Verbindung zur Datenbank (SQLite)
+   * Öffnet Startfenster {@link Startseite}
+   *
+   * @param args (wird nicht verwendet)
+   */
 
   public static void main(String[] args) {
     try {
@@ -15,6 +34,14 @@ public class Start {
     testDatenbankverbindung();
     new Startseite();
   }
+
+  /**
+   * Stellt eine Verbindung zur Datenbank her und prüft deren Verfügbarkeit.
+   * Bei erfolgreicher Verbindung wird eine Bestätigung auf der Konsole ausgegeben. Tritt ein {@link SQLException} auf, wird eine Fehlermeldung auf der Konsole sowie in einem Dialogfenster angezeigt. Die Anwendung wird anschließend mit dem Exit-Code 0 beendet.
+   *
+   * @see DatabaseConfig#getConnection()
+   * @see DatabaseConfig#getConfigPath()
+   */
 
   private static void testDatenbankverbindung() {
     try (Connection conn = DatabaseConfig.getConnection()) {

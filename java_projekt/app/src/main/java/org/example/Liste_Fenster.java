@@ -6,6 +6,24 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
+/**
+ * Das Hauptfenster für die Einkaufsliste der Anwendung "Schobbow".
+ *
+ * Dieses Fenster ermöglicht dem Benutzer:
+ * Produkte zur Liste hinzuzufügen (mit Autovervollständigung aus der Datenbank)  
+ * Die Anzahl eines Produkts zu ändern  
+ * Produkte als gekauft zu markieren (abzuhaken)  
+ * Produkte zu löschen  
+ * Die Liste nach Abteilungen zu sortieren  
+ * Nährwertinformationen zu einem Produkt anzuzeigen  
+ * Den Ladenaufbau (Marktplan) anzuzeigen  
+ *
+ * Die Oberfläche verwendet ein {@link GridBagLayout}, um die Komponenten zu positionieren.
+ *
+ * @author Amelie Trautmann, Lea Eichler
+ * @version 1.1
+ */
+
 public class Liste_Fenster extends JFrame {
 
   // UI Components
@@ -17,12 +35,20 @@ public class Liste_Fenster extends JFrame {
   private JComboBox<Integer> auswahlAnzahl;
   private JButton aufbauButton;
   private JTextField inputTextField;
+  private Dateiarbeit daten;
 
   // Lists
   private DefaultListModel<Produkt> listModel;
   private ArrayList<String> produktListe;
   private AutoComplete autoComplete;
   private Produktarbeit produktarbeit;
+
+  /**
+   * Erzeugt das Hauptfenster der Einkaufsliste.
+   * Initialisiert die Fenstergröße (720x512), das Icon, das Layout,
+   * erstellt alle UI-Komponenten, konfiguriert Listener und Schriftarten
+   * und macht das Fenster sichtbar.
+   */
 
   public Liste_Fenster() {
     // Initialize frame
@@ -46,6 +72,15 @@ public class Liste_Fenster extends JFrame {
     setContentPane(contentPane);
     setVisible(true);
   }
+
+  /**
+   * Erzeugt und platziert alle grafischen Komponenten des Fensters.
+   * Verwendet {@link GridBagConstraints}, um die folgenden Elemente anzuordnen:
+   *      Zeile 0: ComboBox für Filiale, Button "sortieren", Button "Aufbau"  
+   *      Zeile 1: Scrollbare Liste der Produkte  
+   *      Zeile 2: ComboBox für Anzahl, Textfeld für Produktname, Button "hinzufügen"
+   * Außerdem werden die Hilfsobjekte {@link Produktarbeit}, {@link Dateiarbeit} und {@link AutoComplete} initialisiert.
+   */
 
   private void createComponents() {
     GridBagConstraints gbc = new GridBagConstraints();
@@ -129,10 +164,16 @@ public class Liste_Fenster extends JFrame {
 
     // Initialize model and services
     produktarbeit = new Produktarbeit(listModel, liste);
-    Dateiarbeit daten = new Dateiarbeit();
+    daten = new Dateiarbeit();
     produktListe = daten.getProdukte();
     autoComplete = new AutoComplete(inputTextField, produktListe);
   }
+
+  /**
+   * Konfiguriert den Zellen-Renderer für die JList.
+   * Jedes Listenelement wird als {@link JCheckBox} dargestellt, die den Produktnamen
+   * mit Anzahl anzeigt und den gekauft-Status visuell widerspiegelt.
+   */
 
   private void setupListRenderer() {
     liste.setCellRenderer((list, produkt, index, isSelected, cellHasFocus) -> {
@@ -144,6 +185,10 @@ public class Liste_Fenster extends JFrame {
     });
   }
 
+  /**
+   * Weist allen UI-Komponenten die einheitlichen Schriftarten aus {@link UIStyles} zu.
+   */
+
   private void setupFonts() {
     addButton.setFont(UIStyles.BUTTON_FONT);
     sortierenButton.setFont(UIStyles.BUTTON_FONT);
@@ -154,6 +199,19 @@ public class Liste_Fenster extends JFrame {
 
     inputTextField.setFont(UIStyles.TEXT_FIELD_FONT);
   }
+
+  /**
+   * Registriert alle Aktions- und Maus-Listener für die Bedienelemente.
+   * Folgende Interaktionen werden behandelt:
+   * Klick auf "Aufbau" → öffnet {@link getAufbau} (Ladenplan)
+   * Klick auf "hinzufügen" → fügt Produkt zur Liste hinzu (mit Autocomplete)
+   * Klick auf ein Listenelement → wechselt den gekauft-Status des Produkts
+   * Klick auf "sortieren" → sortiert die Liste nach Abteilungen
+   * Rechtsklick auf ein Listenelement → öffnet Kontextmenü mit:
+   * Anzahl ändern
+   * Löschen
+   * Produktinformationen (Nährwerte)
+   */
 
   private void setupListeners() {
     // Aufbau Button
@@ -211,6 +269,18 @@ public class Liste_Fenster extends JFrame {
     loeschen.addActionListener(e -> {
       int index = liste.getSelectedIndex();
       produktarbeit.loeschen(index);
+    });
+
+    infos.addActionListener(e -> {
+      int index = liste.getSelectedIndex();
+      if (index != -1) {
+        Produkt p = listModel.getElementAt(index);
+        String naehrwerte = daten.getNaehrwerte(p.getName());
+        if (naehrwerte == null || naehrwerte.isEmpty()) {
+          naehrwerte = "Unbekanntes Produkt";
+        }
+        new getProduktinformationen(p.getName(), naehrwerte);
+      }
     });
 
     // Change quantity
