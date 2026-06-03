@@ -3,6 +3,20 @@ package org.example;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Das Startfenster der Anwendung "Schobbow - Einkaufsliste".
+ * <p>
+ * Es zeigt ein Logo, einen Begrüßungstext sowie zwei Aktionsbuttons:
+ * <ul>
+ *     <li>„Einkaufsliste öffnen“ – öffnet das Hauptfenster {@link Liste_Fenster} und schließt die Startseite.</li>
+ *     <li>„Neue Liste erstellen“ – zeigt eine Informationsmeldung (aktuell noch Platzhalter).</li>
+ * </ul>
+ * </p>
+ *
+ * @author Lea Eichler
+ * @version 1.0
+ */
+
 public class Startseite extends JFrame {
 
   private JPanel mainPanel;
@@ -11,6 +25,16 @@ public class Startseite extends JFrame {
   private JLabel Untertitel;
   private JButton einkaufsliste;
   private JButton neueListe;
+
+  /**
+   * Erzeugt das Startfenster.
+   * <p>
+   * Die Fenstergröße wird auf 720x512 Pixel gesetzt, es wird zentriert und
+   * das Fenster-Schließen beendet die gesamte Anwendung. Das Logo wird aus der
+   * Ressource geladen, das Benutzerinterface wird aufgebaut, Listener und
+   * Schriftarten werden konfiguriert. Abschließend wird das Panel sichtbar gemacht.
+   * </p>
+   */
 
   public Startseite() {
     setTitle("Schobbow - Einkaufsliste");
@@ -26,6 +50,19 @@ public class Startseite extends JFrame {
     setContentPane(mainPanel);
     setVisible(true);
   }
+
+  /**
+   * Baut das gesamte grafische Benutzerinterface auf.
+   * <p>
+   * Es werden zwei Bereiche erzeugt:
+   * <ul>
+   *     <li>Ein oberer Bereich (Nord) mit Logo, Überschrift und Untertitel.</li>
+   *     <li>Ein zentraler Bereich (Center) mit zwei Buttons.</li>
+   * </ul>
+   * Die Hintergrundfarbe wird auf einen dunklen Grünwert gesetzt, und die
+   * Buttons erhalten eine einheitliche Größe und einheitliches Aussehen.
+   * </p>
+   */
 
   private void createUI() {
     mainPanel = new JPanel();
@@ -93,10 +130,22 @@ public class Startseite extends JFrame {
     mainPanel.add(buttonPanel, BorderLayout.CENTER);
   }
 
+  /**
+   * Weist den Buttons die einheitlichen Schriftarten aus {@link UIStyles} zu.
+   */
+
   private void setupFonts() {
     einkaufsliste.setFont(UIStyles.BUTTON_FONT);
     neueListe.setFont(UIStyles.BUTTON_FONT);
   }
+
+  /**
+   * Registriert die Aktionslistener für die beiden Buttons.
+   * <ul>
+   *     <li>Der „Einkaufsliste öffnen“-Button öffnet das {@link Liste_Fenster} und schließt die Startseite.</li>
+   *     <li>Der „Neue Liste erstellen“-Button zeigt lediglich eine Dialogmeldung (Platzhalter für zukünftige Funktionalität).</li>
+   * </ul>
+   */
 
   private void setupListeners() {
     einkaufsliste.addActionListener(e -> {
